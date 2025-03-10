@@ -1,0 +1,21 @@
+[{
+  "data_format": "SVS", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "TCGA-BH-A0W3-01A-01-TS1", 
+      "entity_type": "slide", 
+      "case_id": "3c612e12-6de8-44fa-a095-805c45474821", 
+      "entity_id": "bb03a842-a10c-46d5-a07b-829be4a3fb68"
+    }
+  ], 
+  "file_name": "TCGA-BH-A0W3-01A-01-TS1.bb03a842-a10c-46d5-a07b-829be4a3fb68.svs", 
+  "md5sum": "03a8e68dea49983c4da2bf636723a9ba", 
+  "file_id": "74e1dc16-b83f-4af6-9fa8-6cafd09bc74a", 
+  "data_type": "Slide Image", 
+  "submitter_id": "TCGA-BH-A0W3-01A-01-TS1_slide_image", 
+  "data_category": "Biospecimen", 
+  "state": "released", 
+  "experimental_strategy": "Tissue Slide", 
+  "file_size": 273285397
+}]

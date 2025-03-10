@@ -1,0 +1,1627 @@
+[{
+  "case_id": "3b963d72-ba5c-467b-83c9-fbdb462510a3", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "00d0d9e9-9198-43c7-a25d-ff5ded8db7e8", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-A2-A25D_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 0, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "e915b9a2-e709-4738-be9f-79be4fe1628c", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-A2-A25D_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 0, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+    }, 
+    {
+      "follow_up_id": "9cf4f64d-d807-51f3-8914-730f3bb6a649", 
+      "molecular_tests": [
+        {
+          "test_value_range": "70-79%", 
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "0ea2c8a3-dbb3-44fe-bcca-42bb885f2d33", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-A2-A25D_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "4e7c6e4a-2670-58be-974c-89ef5be18333", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "2eab5e0a-034f-4d90-b346-25c29c6c3b2a", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-A2-A25D_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "6e8e6797-79a2-5b91-9ba3-6662d9cb2509", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "FISH", 
+          "copy_number": 145.0, 
+          "test_result": "Copy Number Reported", 
+          "molecular_test_id": "4a05ab27-7515-4997-bbb5-e35eb32472e6", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "cell_count": 60, 
+          "submitter_id": "TCGA-A2-A25D_molecular_test5", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "a276a2d4-bbe4-5cd7-be35-7ac0e3e88990", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "FISH", 
+          "specialized_molecular_test": "Signal ratio", 
+          "test_result": "Test Value Reported", 
+          "molecular_test_id": "4c9eccca-af71-4e73-b0e7-64e69e6fb479", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "chromosome": "chr17", 
+          "gene_symbol": "ERBB2", 
+          "cell_count": 60, 
+          "submitter_id": "TCGA-A2-A25D_molecular_test7", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "test_value": 1.22
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "22f20d49-9c2e-5dc5-865f-8b18c4d7fab3", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "FISH", 
+          "test_result": "Negative", 
+          "molecular_test_id": "63c69d45-76d6-4001-beda-8987dbf7b223", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "variant_type": "Amplification", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-A2-A25D_molecular_test4", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "edd0e4a9-a598-527f-8ff8-b6aebbdce404", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "staining_intensity_value": "1+", 
+          "test_result": "Negative", 
+          "molecular_test_id": "887184f1-ee12-4c89-b677-7a8231cdc6dd", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-A2-A25D_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "b61ed5ab-5065-5652-8667-759075b8cc74", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "FISH", 
+          "copy_number": 118.0, 
+          "test_result": "Copy Number Reported", 
+          "molecular_test_id": "a345cac6-2a2e-40a7-9ac3-8dfd933c5ba4", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "chromosome": "chr17", 
+          "gene_symbol": "Not Applicable", 
+          "cell_count": 60, 
+          "submitter_id": "TCGA-A2-A25D_molecular_test6", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "5e71bc03-d437-5080-b66c-8cbd965bf878", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "140b6fdc-b4ad-4b9e-97d4-e57a79a2a61f", 
+          "submitter_id": "TCGA-A2-A25D_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "menopause_status": "Postmenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-A2-A25D", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIIC", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Right", 
+      "treatments": [
+        {
+          "days_to_treatment_end": 0, 
+          "prescribed_dose_units": "mg", 
+          "days_to_treatment_start": 0, 
+          "route_of_administration": [
+            "Oral"
+          ], 
+          "submitter_id": "TCGA-A2-A25D_treatment3", 
+          "treatment_id": "23545c60-ccda-44c2-bac7-b60013fb62e7", 
+          "treatment_type": "Hormone Therapy", 
+          "prescribed_dose": 25.0, 
+          "therapeutic_agents": "Exemestane", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released"
+        }, 
+        {
+          "days_to_treatment_end": 0, 
+          "course_number": 1.0, 
+          "treatment_dose": 6640, 
+          "days_to_treatment_start": 0, 
+          "submitter_id": "TCGA-A2-A25D_treatment", 
+          "treatment_id": "6dce3e54-1e58-53b7-9315-8e5ba8a46192", 
+          "treatment_type": "Radiation, External Beam", 
+          "treatment_or_therapy": "yes", 
+          "number_of_fractions": 36.0, 
+          "treatment_anatomic_sites": [
+            "Primary Tumor Field"
+          ], 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released", 
+          "treatment_dose_units": "cGy"
+        }, 
+        {
+          "prescribed_dose_units": "mg/day", 
+          "days_to_treatment_start": 0, 
+          "route_of_administration": [
+            "Oral"
+          ], 
+          "submitter_id": "TCGA-A2-A25D_treatment2", 
+          "treatment_id": "83ab73ec-6ac8-4a54-af87-3daa75b5eeda", 
+          "treatment_type": "Hormone Therapy", 
+          "prescribed_dose": 20.0, 
+          "therapeutic_agents": "Tamoxifen", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "treatment_outcome": "Treatment Ongoing", 
+          "state": "released"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-A2-A25D_treatment5", 
+          "treatment_id": "cd3c730d-991c-49c4-943a-e94ef67a4a15", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Involved", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "days_to_treatment_end": 0, 
+          "prescribed_dose_units": "mg", 
+          "days_to_treatment_start": 0, 
+          "route_of_administration": [
+            "Oral"
+          ], 
+          "submitter_id": "TCGA-A2-A25D_treatment4", 
+          "treatment_id": "dbcbdc38-b35d-4076-8948-a9a880b654af", 
+          "treatment_type": "Hormone Therapy", 
+          "prescribed_dose": 1.0, 
+          "therapeutic_agents": "Anastrozole", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 32872, 
+      "primary_diagnosis": "Lobular carcinoma, NOS", 
+      "metastasis_at_diagnosis": "No Metastasis", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2010, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Core Biopsy", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T2", 
+      "morphology": "8520/3", 
+      "ajcc_pathologic_n": "N3a", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-A2-A25D_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "266b7cc1-a727-4911-b7a9-cb8d73e19642", 
+          "lymph_nodes_positive": 22, 
+          "lymph_nodes_tested": 24, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-A2-A25D_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:53:57.613246-06:00"
+        }
+      ], 
+      "diagnosis_id": "8d1f339f-5a28-56b4-b26c-557b605cf8cb", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, Right Upper Outer"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "7556b5ea-85b2-5183-87c2-65cbe43b9ed5", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "true", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 89, 
+    "submitter_id": "TCGA-A2-A25D_demographic", 
+    "days_to_birth": -32872, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "United States"
+  }
+},{
+  "case_id": "3bf81a9f-abb4-4495-a514-fd3865e13a03", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "2cad6e95-ae9b-473f-b2da-298b2b42dc2b", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A201_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 856, 
+      "state": "released", 
+      "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "a852dcab-3057-4497-8480-b4b7bbea4e5d", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A201_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 856, 
+      "state": "released", 
+      "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "e8f5bebe-5b66-4e05-87e0-88a787d9af29", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A201_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 210, 
+      "state": "released", 
+      "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+    }, 
+    {
+      "follow_up_id": "305cb808-e35e-5395-bc17-3501aa3901bf", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "769d3047-24c2-42ad-8de1-1aec279f7bfb", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-BH-A201_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "19e021b3-7ce3-54e7-8e73-a6b1448051ca", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "de33801c-045b-428e-aa7f-7f72a467ff55", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-BH-A201_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "d01a49ae-e1c3-554a-a936-2ef2ba7159ca", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "ec154ef9-4963-46d7-9954-0a4e5b57ea6d", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-BH-A201_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "5ee53e8a-69a9-57ba-b5b8-27529b6c2a47", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "4daa6d93-da08-48d6-ad4f-f9030e771381", 
+          "submitter_id": "TCGA-BH-A201_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00", 
+          "menopause_status": "Postmenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-BH-A201", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IA", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Left", 
+      "treatments": [
+        {
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A201_treatment2", 
+          "treatment_id": "38879cad-4749-4941-8595-0e7ce1ca9358", 
+          "treatment_type": "Pharmaceutical Therapy, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "no", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+        }, 
+        {
+          "days_to_treatment_end": 108, 
+          "treatment_dose": 6640, 
+          "days_to_treatment_start": 56, 
+          "submitter_id": "TCGA-BH-A201_treatment", 
+          "treatment_id": "728da39b-a364-5f0a-b844-79fceb17eafb", 
+          "treatment_type": "Radiation, External Beam", 
+          "treatment_or_therapy": "yes", 
+          "number_of_fractions": 28.0, 
+          "treatment_anatomic_sites": [
+            "Primary Tumor Field"
+          ], 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "treatment_dose_units": "cGy"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A201_treatment3", 
+          "treatment_id": "bca34cf9-1591-4ca3-b7f4-e43f640c536f", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Not Reported", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 23423, 
+      "primary_diagnosis": "Infiltrating duct carcinoma, NOS", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2011, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Core Biopsy", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T1", 
+      "morphology": "8500/3", 
+      "ajcc_pathologic_n": "N0", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-BH-A201_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "400a7b13-aed9-4997-bdb7-b4bf9ddf065f", 
+          "lymph_nodes_positive": 0, 
+          "lymph_nodes_tested": 2, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A201_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-06T00:11:13.384273-06:00"
+        }
+      ], 
+      "diagnosis_id": "435e28a7-3f2f-513d-a32c-642abfb9c011", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, NOS"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "df8ec77d-82d8-5682-9a82-7eb1592c9d82", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 64, 
+    "submitter_id": "TCGA-BH-A201_demographic", 
+    "days_to_birth": -23423, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "United States"
+  }
+},{
+  "case_id": "3c275152-d04b-440c-9621-2fc05ea977b6", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "3174775e-271c-43b8-bfc6-31f357170b6b", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-AR-A5QP_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 439, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "4161f0ee-b308-474b-a3df-3b540e4ba7f3", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-AR-A5QP_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1185, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "6374c131-26d1-4901-b3a4-72c3b4ffc923", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-AR-A5QP_follow_up4", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1185, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "cd362179-657e-4a8b-b4f3-9b021359f903", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-AR-A5QP_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 622, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+    }, 
+    {
+      "follow_up_id": "3a1d48a2-bc66-56a3-b1ea-d404dec5c46c", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "staining_intensity_value": "2+", 
+          "test_result": "Equivocal", 
+          "molecular_test_id": "190d7b22-8b63-45a7-bb94-15868eb4010d", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-AR-A5QP_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "996e7e76-a08f-525f-927c-7b06da734c6f", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "4c267432-f939-484c-8ba7-1c2c3b6d7f92", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-AR-A5QP_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "7adfc47d-acd9-5cc5-8a0d-a84b92017c53", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "a01f27e4-40bf-4ab1-b1c7-e2587bc647b8", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-AR-A5QP_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "2b1a75e1-23a1-5d5c-927f-43d784028adc", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "3b93ab84-aebf-4361-949b-74e66354f4df", 
+          "submitter_id": "TCGA-AR-A5QP_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00", 
+          "menopause_status": "Postmenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-AR-A5QP", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIB", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Left", 
+      "treatments": [
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-AR-A5QP_treatment3", 
+          "treatment_id": "69213af4-47ba-46cc-ac25-425276c4f5f1", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Not Reported", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Primary Tumor Field"
+          ], 
+          "days_to_treatment_end": 70, 
+          "treatment_dose": 5256, 
+          "days_to_treatment_start": 42, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-AR-A5QP_treatment", 
+          "treatment_id": "8a755f29-66da-5b9a-91a9-9a2002850d28", 
+          "treatment_type": "Radiation, External Beam", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "treatment_dose_units": "cGy", 
+          "number_of_fractions": 20.0
+        }, 
+        {
+          "clinical_trial_indicator": "No", 
+          "days_to_treatment_start": 46, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-AR-A5QP_treatment2", 
+          "treatment_id": "effdae3d-fb6b-4b93-bd21-8e3192c5a006", 
+          "treatment_type": "Hormone Therapy", 
+          "treatment_outcome": "Treatment Ongoing", 
+          "state": "released", 
+          "therapeutic_agents": "Tamoxifen", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 19805, 
+      "primary_diagnosis": "Lobular carcinoma, NOS", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2011, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T2", 
+      "morphology": "8520/3", 
+      "ajcc_pathologic_n": "N1", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-AR-A5QP_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "1adc7d99-6d66-4167-943c-f534160777dd", 
+          "lymph_nodes_positive": 1, 
+          "lymph_nodes_tested": 40, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-AR-A5QP_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:29.988857-06:00"
+        }
+      ], 
+      "diagnosis_id": "de664f09-7cbf-55a2-bb5b-4205600ca1d3", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, NOS"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "22649530-3ab5-5d6d-8935-97126585aab2", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 54, 
+    "submitter_id": "TCGA-AR-A5QP_demographic", 
+    "days_to_birth": -19805, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "United States"
+  }
+},{
+  "case_id": "3c612e12-6de8-44fa-a095-805c45474821", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "15ae9d60-b8e1-4714-9e3e-fb314db4cf71", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A0W3_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 180, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "98457d1d-6fd3-42a8-b0b9-06eddfb5d8d3", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A0W3_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 728, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "df77ee0e-25e1-4c9f-960a-e34316085fcd", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-BH-A0W3_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 728, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+    }, 
+    {
+      "follow_up_id": "5f3ba588-9335-5830-b93a-9e905265d67c", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "FISH", 
+          "test_result": "Negative", 
+          "molecular_test_id": "0eb9dd08-9fe6-40e8-8250-9260467b9bb5", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "variant_type": "Amplification", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-BH-A0W3_molecular_test4", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "0cc73966-f5e7-5f1a-ba76-a24c5abf2dd3", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Equivocal", 
+          "molecular_test_id": "2503a17e-f6cc-4b8e-806d-5d2a935293c8", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-BH-A0W3_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "cf818b33-3982-5441-913f-a850a6f7f2ff", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "f31e65aa-d423-4a2e-a97b-f492bb6d8a77", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-BH-A0W3_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "71cb48ba-c7f6-549f-ac63-3be356eaad4b", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "f3589cd9-c823-42e5-a26d-3fd6bb10491b", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-BH-A0W3_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "87e85299-4478-5819-b905-900c7c7b60ca", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "72675764-3e8b-4cd4-8092-2b511f329d9f", 
+          "submitter_id": "TCGA-BH-A0W3_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00", 
+          "menopause_status": "Unknown"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-BH-A0W3", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIA", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Left", 
+      "treatments": [
+        {
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A0W3_treatment3", 
+          "treatment_id": "1b628f33-0152-4269-82f1-5681df73e4c8", 
+          "treatment_type": "Pharmaceutical Therapy, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "no", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A0W3_treatment4", 
+          "treatment_id": "24c16e90-c1c9-458b-abe8-f2e10e3fd6b9", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Not Reported", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "days_to_treatment_end": 96, 
+          "treatment_dose": 46, 
+          "days_to_treatment_start": 63, 
+          "submitter_id": "TCGA-BH-A0W3_treatment2", 
+          "treatment_id": "5d36aeab-853e-4d76-bc58-d77c6248ddb8", 
+          "treatment_type": "Radiation, External Beam", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00", 
+          "treatment_anatomic_sites": [
+            "Regional Site"
+          ], 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "treatment_dose_units": "Gy"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Primary Tumor Field"
+          ], 
+          "days_to_treatment_end": 98, 
+          "treatment_dose": 46, 
+          "days_to_treatment_start": 63, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A0W3_treatment", 
+          "treatment_id": "9c5a28c6-258e-5f41-a6bf-4893cb797ac3", 
+          "treatment_type": "Radiation, External Beam", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "treatment_dose_units": "Gy"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 21369, 
+      "primary_diagnosis": "Infiltrating duct carcinoma, NOS", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2010, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Core Biopsy", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T1c", 
+      "morphology": "8500/3", 
+      "ajcc_pathologic_n": "N1a", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-BH-A0W3_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "972af159-3396-40e0-bab4-63947b4abfa3", 
+          "lymph_nodes_positive": 1, 
+          "lymph_nodes_tested": 4, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-BH-A0W3_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:36:38.166145-06:00"
+        }
+      ], 
+      "diagnosis_id": "f16789e6-6ae2-5409-abf2-db06652d5ca0", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, Left Upper Inner"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "cab4193f-91d4-5a37-b9c0-a2af51c64274", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 58, 
+    "submitter_id": "TCGA-BH-A0W3_demographic", 
+    "days_to_birth": -21369, 
+    "state": "released"
+  }
+},{
+  "case_id": "3d676bba-154b-4d22-ab59-d4d4da051b94", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "4b803f74-9372-4492-a3a4-9e59f595566a", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1NE_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 0, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "4d29f521-7b51-4beb-be1e-c05e6ca95650", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1NE_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1088, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "a4df7c4b-148c-4df7-9664-f86d02accd12", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1NE_follow_up4", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1088, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "f0f7ed47-acb4-448e-b159-73cedac5f7f5", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1NE_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 420, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+    }, 
+    {
+      "follow_up_id": "7f213658-bda7-5e4e-8f1a-f5277ab8b985", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "0e009193-f017-44c4-91a3-d4690650358d", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-E9-A1NE_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "f36579e2-47f0-57bf-89c8-3d9e37152a77", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Positive", 
+          "molecular_test_id": "230209ec-8bb4-4d2b-8e13-dacbb7189d6e", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-E9-A1NE_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "65acb492-c6e1-5466-af1d-8bfacd1b582a", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "c09ba64d-b9e4-4f93-8883-4e3737bd4d30", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-E9-A1NE_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "4000c979-2ee1-5df8-9c1a-eb9cb39371c7", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "2c904cc3-5cc4-4159-8d3a-22c1688f01f6", 
+          "submitter_id": "TCGA-E9-A1NE_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00", 
+          "menopause_status": "Premenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-E9-A1NE", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIB", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Right", 
+      "treatments": [
+        {
+          "clinical_trial_indicator": "No", 
+          "days_to_treatment_start": 184, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_treatment5", 
+          "treatment_id": "07d90597-2107-4d46-842d-4ec54d1593bf", 
+          "treatment_type": "Hormone Therapy", 
+          "treatment_outcome": "Treatment Ongoing", 
+          "state": "released", 
+          "therapeutic_agents": "Tamoxifen", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }, 
+        {
+          "days_to_treatment_end": 121, 
+          "clinical_trial_indicator": "No", 
+          "days_to_treatment_start": 10, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_treatment3", 
+          "treatment_id": "0cbaeecc-e02f-42af-9b32-eb6a899cf61e", 
+          "treatment_type": "Chemotherapy", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "therapeutic_agents": "Cyclophosphamide", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }, 
+        {
+          "days_to_treatment_end": 121, 
+          "clinical_trial_indicator": "No", 
+          "days_to_treatment_start": 10, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_treatment4", 
+          "treatment_id": "32b3fc74-bac8-4713-bb77-3616e0fc9bfd", 
+          "treatment_type": "Chemotherapy", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "therapeutic_agents": "Fluorouracil", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }, 
+        {
+          "days_to_treatment_end": 121, 
+          "clinical_trial_indicator": "No", 
+          "days_to_treatment_start": 10, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_treatment2", 
+          "treatment_id": "70d2b1eb-0c8d-4764-a048-021e358b0fdf", 
+          "treatment_type": "Chemotherapy", 
+          "treatment_outcome": "Complete Response", 
+          "state": "released", 
+          "therapeutic_agents": "Doxorubicin", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_treatment6", 
+          "treatment_id": "80aad906-b8d1-4f49-9f1c-d2727a76fda5", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Uninvolved", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "days_to_treatment_end": 171, 
+          "treatment_dose": 4600, 
+          "days_to_treatment_start": 141, 
+          "submitter_id": "TCGA-E9-A1NE_treatment", 
+          "treatment_id": "c4dd462d-614b-569c-92aa-a4aaeb0ca76c", 
+          "treatment_type": "Radiation, External Beam", 
+          "treatment_or_therapy": "yes", 
+          "number_of_fractions": 23.0, 
+          "treatment_anatomic_sites": [
+            "Regional Site"
+          ], 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released", 
+          "treatment_dose_units": "cGy"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 10564, 
+      "primary_diagnosis": "Infiltrating duct and lobular carcinoma", 
+      "metastasis_at_diagnosis": "No Metastasis", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2011, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Surgical Resection", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T2", 
+      "morphology": "8522/3", 
+      "ajcc_pathologic_n": "N1", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-E9-A1NE_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "096a92c5-61e5-47d7-9acb-2780ce48da65", 
+          "lymph_nodes_positive": 1, 
+          "lymph_nodes_tested": 2, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1NE_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:25:46.697761-06:00"
+        }
+      ], 
+      "diagnosis_id": "d8b9b7ca-c888-51fe-9131-c834b972cd89", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, Right Lower Outer"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "17846c01-7dd4-5800-bf34-1ca8819b6e21", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 28, 
+    "submitter_id": "TCGA-E9-A1NE_demographic", 
+    "days_to_birth": -10564, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "Russia"
+  }
+},{
+  "case_id": "abdc76db-f85e-4337-a57e-6d098789da03", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "0e80b2ce-d09a-40a4-8815-b11ebfc8642d", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-C8-A12P_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 0, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "147b817d-7786-4d33-bcc9-427fe4c88efc", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-C8-A12P_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 358, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "21d19215-d51d-409a-ba27-fbc618509f92", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-C8-A12P_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 358, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+    }, 
+    {
+      "follow_up_id": "8dfc22bd-d3c3-5668-8378-04462d3e2673", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "1c7211a6-65db-4571-85c6-9eb31f2921de", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-C8-A12P_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "faa7129b-b796-5afb-b97f-8cfc164de518", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "staining_intensity_value": "3+", 
+          "test_result": "Positive", 
+          "molecular_test_id": "40cfea2c-7933-4e14-91f0-1d3d9ed626b8", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-C8-A12P_molecular_test3", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "fafa36db-69cb-5838-872d-b84490c6a277", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "9d7c022c-3275-4509-8fe8-195a44f1f4e5", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "PGR", 
+          "submitter_id": "TCGA-C8-A12P_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "a1dc8311-face-58b4-85f7-ff2b926bc7ae", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "50eb026e-039d-4684-af8f-e4583b1d08e9", 
+          "submitter_id": "TCGA-C8-A12P_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00", 
+          "menopause_status": "Postmenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-C8-A12P", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIB", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Left", 
+      "treatments": [
+        {
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-C8-A12P_treatment2", 
+          "treatment_id": "15fd98ef-c5af-4706-b5ef-e39624d9a0f8", 
+          "treatment_type": "Radiation Therapy, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "no", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-C8-A12P_treatment3", 
+          "treatment_id": "78b09c64-7121-487b-9ba0-4bf573b7475e", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Uninvolved", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-C8-A12P_treatment", 
+          "treatment_id": "e5e19d9f-ca7b-5d65-ab54-9acad24721f4", 
+          "treatment_type": "Pharmaceutical Therapy, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "no"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 20332, 
+      "primary_diagnosis": "Infiltrating duct carcinoma, NOS", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2010, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Surgical Resection", 
+      "ajcc_staging_system_edition": "6th", 
+      "ajcc_pathologic_t": "T2", 
+      "morphology": "8500/3", 
+      "ajcc_pathologic_n": "N1", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-C8-A12P_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "e855bec5-84c1-4ead-8130-c62f361007d8", 
+          "lymph_nodes_tested": 8, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-C8-A12P_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:01:51.519893-06:00"
+        }
+      ], 
+      "diagnosis_id": "44b1863d-fa52-503c-9595-318841f36ffd", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, NOS"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "4a07c2f1-9d0b-5bb8-babc-334905934bba", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "asian", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 55, 
+    "submitter_id": "TCGA-C8-A12P_demographic", 
+    "days_to_birth": -20332, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "Vietnam"
+  }
+},{
+  "case_id": "ac075bc0-1b59-4557-beea-541694faee03", 
+  "follow_ups": [
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "33845858-276e-45ca-b004-c3afae5cfaba", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1N8_follow_up2", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 0, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+    }, 
+    {
+      "timepoint_category": "Last Contact", 
+      "follow_up_id": "5df5f8ed-2262-40d6-852b-e5d7c5ab5eba", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1N8_follow_up", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1039, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "fa1606ae-a504-4471-9496-75066df3eb1f", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1N8_follow_up3", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 365, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+    }, 
+    {
+      "timepoint_category": "Follow-up", 
+      "follow_up_id": "ff05510e-1df1-4c4d-a3f2-76630c3ef073", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "submitter_id": "TCGA-E9-A1N8_follow_up4", 
+      "disease_response": "TF-Tumor Free", 
+      "days_to_follow_up": 1039, 
+      "state": "released", 
+      "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+    }, 
+    {
+      "follow_up_id": "e8d8263d-ac71-5a60-bfb8-8166c0dde6a5", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "7079523a-675c-4528-af01-15e04e2edd08", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ERBB2", 
+          "submitter_id": "TCGA-E9-A1N8_molecular_test2", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "0d44865c-15db-5355-a280-0655188da13a", 
+      "molecular_tests": [
+        {
+          "molecular_analysis_method": "IHC", 
+          "test_result": "Negative", 
+          "molecular_test_id": "be02d3c1-8318-4334-9d1b-2cf2326f5421", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "gene_symbol": "ESR1", 
+          "submitter_id": "TCGA-E9-A1N8_molecular_test", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+        }
+      ]
+    }, 
+    {
+      "follow_up_id": "01f0d5c1-b437-5038-b548-7c9773161459", 
+      "other_clinical_attributes": [
+        {
+          "timepoint_category": "Initial Diagnosis", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "other_clinical_attribute_id": "2215b86e-65f5-4835-a7c4-aca56cbb6f15", 
+          "submitter_id": "TCGA-E9-A1N8_other_clinical_attribute", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00", 
+          "menopause_status": "Postmenopausal"
+        }
+      ]
+    }
+  ], 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-E9-A1N8", 
+  "diagnoses": [
+    {
+      "synchronous_malignancy": "No", 
+      "ajcc_pathologic_stage": "Stage IIA", 
+      "days_to_diagnosis": 0, 
+      "laterality": "Right", 
+      "treatments": [
+        {
+          "days_to_treatment_end": 107, 
+          "prescribed_dose_units": "mg/day", 
+          "treatment_dose": 3200, 
+          "days_to_treatment_start": 22, 
+          "route_of_administration": [
+            "Intravenous"
+          ], 
+          "number_of_cycles": 4, 
+          "submitter_id": "TCGA-E9-A1N8_treatment2", 
+          "treatment_id": "00593ce9-0aba-416b-9695-9600685d0498", 
+          "treatment_type": "Chemotherapy", 
+          "prescribed_dose": 800.0, 
+          "therapeutic_agents": "Fluorouracil", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released", 
+          "treatment_dose_units": "mg"
+        }, 
+        {
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1N8_treatment4", 
+          "treatment_id": "3f363cbc-5a9b-4ee9-9e61-9cba4250905a", 
+          "treatment_type": "Radiation Therapy, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "no", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+        }, 
+        {
+          "days_to_treatment_end": 107, 
+          "prescribed_dose_units": "mg/day", 
+          "treatment_dose": 320, 
+          "days_to_treatment_start": 22, 
+          "route_of_administration": [
+            "Intravenous"
+          ], 
+          "number_of_cycles": 4, 
+          "submitter_id": "TCGA-E9-A1N8_treatment", 
+          "treatment_id": "3f448f22-9db3-560a-93a8-512a1080c400", 
+          "treatment_type": "Chemotherapy", 
+          "prescribed_dose": 80.0, 
+          "therapeutic_agents": "Doxorubicin", 
+          "treatment_or_therapy": "yes", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released", 
+          "treatment_dose_units": "mg"
+        }, 
+        {
+          "treatment_anatomic_sites": [
+            "Breast"
+          ], 
+          "treatment_intent_type": "First-Line Therapy", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1N8_treatment5", 
+          "treatment_id": "870b5be9-9abe-4c7d-8344-59a8ce633d02", 
+          "treatment_type": "Surgery, NOS", 
+          "state": "released", 
+          "treatment_or_therapy": "yes", 
+          "margin_status": "Uninvolved", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00", 
+          "initial_disease_status": "Initial Diagnosis"
+        }, 
+        {
+          "days_to_treatment_end": 107, 
+          "prescribed_dose_units": "mg/day", 
+          "treatment_dose": 3200, 
+          "days_to_treatment_start": 22, 
+          "route_of_administration": [
+            "Intravenous"
+          ], 
+          "number_of_cycles": 4, 
+          "submitter_id": "TCGA-E9-A1N8_treatment3", 
+          "treatment_id": "b09a8576-2a2e-4eb5-a272-3f9f3f0f9516", 
+          "treatment_type": "Chemotherapy", 
+          "prescribed_dose": 800.0, 
+          "therapeutic_agents": "Cyclophosphamide", 
+          "treatment_or_therapy": "yes", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00", 
+          "treatment_intent_type": "Adjuvant", 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "state": "released", 
+          "treatment_dose_units": "mg"
+        }
+      ], 
+      "tissue_or_organ_of_origin": "Breast, NOS", 
+      "age_at_diagnosis": 17652, 
+      "primary_diagnosis": "Infiltrating duct carcinoma, NOS", 
+      "metastasis_at_diagnosis": "No Metastasis", 
+      "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+      "prior_malignancy": "no", 
+      "year_of_diagnosis": 2010, 
+      "prior_treatment": "No", 
+      "state": "released", 
+      "diagnosis_is_primary_disease": "true", 
+      "method_of_diagnosis": "Surgical Resection", 
+      "ajcc_staging_system_edition": "7th", 
+      "ajcc_pathologic_t": "T2", 
+      "morphology": "8500/3", 
+      "ajcc_pathologic_n": "N0", 
+      "ajcc_pathologic_m": "M0", 
+      "submitter_id": "TCGA-E9-A1N8_diagnosis", 
+      "classification_of_tumor": "primary", 
+      "pathology_details": [
+        {
+          "consistent_pathology_review": "Yes", 
+          "pathology_detail_id": "a003c976-59cf-4232-b784-3e02718c400d", 
+          "lymph_nodes_positive": 0, 
+          "lymph_nodes_tested": 8, 
+          "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+          "submitter_id": "TCGA-E9-A1N8_pathology_detail", 
+          "state": "released", 
+          "created_datetime": "2025-01-05T23:24:39.702215-06:00"
+        }
+      ], 
+      "diagnosis_id": "835aa871-b8d9-5e54-9dc1-24ef4d091180", 
+      "icd_10_code": "C50.9", 
+      "site_of_resection_or_biopsy": "Breast, NOS", 
+      "sites_of_involvement": [
+        "Breast, Right Upper Outer"
+      ]
+    }
+  ], 
+  "demographic": {
+    "demographic_id": "a143a1df-03e5-508e-b583-fb9d3c7afcc8", 
+    "ethnicity": "not hispanic or latino", 
+    "gender": "female", 
+    "race": "white", 
+    "vital_status": "Alive", 
+    "age_is_obfuscated": "false", 
+    "updated_datetime": "2025-01-08T12:58:05.350809-06:00", 
+    "age_at_index": 48, 
+    "submitter_id": "TCGA-E9-A1N8_demographic", 
+    "days_to_birth": -17652, 
+    "state": "released", 
+    "country_of_residence_at_enrollment": "Russia"
+  }
+}]

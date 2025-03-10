@@ -1,0 +1,3487 @@
+[{
+  "case_id": "3b963d72-ba5c-467b-83c9-fbdb462510a3", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-A2-A25D", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "a8d035aa-54b8-4cb9-b541-0bb89fd3399d", 
+      "submitter_id": "TCGA-A2-A25D-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:12:29.643720-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "55f7dcc8-a580-5d5a-8ed3-32a18ef2436f", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-A2-A25D-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "443dd181-f3f3-4719-a408-acccc2f36a0d", 
+              "created_datetime": "2018-05-17T13:34:27.834235-05:00"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "eda0ff5c-84cf-44cb-888f-0aab17441dfa", 
+      "pathology_report_uuid": "BE63B06A-E3E0-4E00-9B9F-5E7DE8852E07", 
+      "submitter_id": "TCGA-A2-A25D-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 224, 
+      "state": "released", 
+      "initial_weight": 430.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "1ecf15cf-993d-4155-96b5-ba1f9dae8ca8", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-A2-A25D-01A-21", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "6ff66f90-93c3-4c1e-84c6-9db89ca701c2", 
+          "updated_datetime": "2022-04-29T02:53:15.889982-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1310601600.0, 
+          "submitter_id": "TCGA-A2-A25D-01A-21-A17I-20", 
+          "weight": 20.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [
+            {
+              "analyte_id": "1a7d40e4-0166-4e2d-abe3-1a3e0f6c7215", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "52121f3a-037b-4f1c-afae-ecc1a4f4506c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:11.705523-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12W-A189-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T02:53:09.479471-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-A2-A25D-01A-12W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 3.2, 
+                  "aliquot_id": "511cecab-9bd8-4110-9a3a-d0a6da2b1078", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:05.080645-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12R-A16E-13", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }, 
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "d6b5cec3-edeb-46c5-839b-e62a1e850e0e", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:07.278727-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12R-A16F-07", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "submitter_id": "TCGA-A2-A25D-01A-12R", 
+              "concentration": 0.16, 
+              "ribosomal_rna_28s_16s_ratio": 1.8, 
+              "analyte_type_id": "R", 
+              "analyte_id": "49b1b7d3-184c-4132-89df-65236ef2a92b", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-29T02:53:02.686682-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 7.2, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.72
+            }, 
+            {
+              "analyte_id": "bff7176c-0739-4be0-9a19-542787577d06", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.34, 
+                  "aliquot_id": "392dc689-b5fb-4d5a-a972-4c42c48dd4ac", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:52:52.160386-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12D-A16B-02", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 3.6, 
+                  "aliquot_id": "56b152c3-9de5-4b1c-b6b4-0116cb7ce097", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:52:55.829580-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12D-A16D-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }, 
+                {
+                  "aliquot_quantity": 1.21, 
+                  "aliquot_id": "91bb8c75-008a-4c32-84bd-fb55524a39aa", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:52:54.012692-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12D-A16C-01", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 6.7
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-A2-A25D-01A-12D-A89A-36", 
+                  "concentration": 0.18, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T02:53:01.766071-05:00", 
+                  "aliquot_quantity": 9.0, 
+                  "aliquot_id": "b31b8f0d-bca7-43af-b75a-bcadc53286d8", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 4.81, 
+                  "aliquot_id": "f1d016e8-86b1-4abf-929e-69ea2e9bc2c5", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:52:57.649801-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-01A-12D-A16G-05", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T02:52:47.958696-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-A2-A25D-01A-12D", 
+              "concentration": 0.18, 
+              "state": "released", 
+              "a260_a280_ratio": 1.94, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "f30eae12-f377-458d-bb4a-014d91ef3a67", 
+          "slides": [
+            {
+              "percent_stromal_cells": 41.0, 
+              "submitter_id": "TCGA-A2-A25D-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 55.0, 
+              "slide_id": "f5616a1d-8a54-43a1-ade2-c3e63f8db896", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 4.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 80.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1304899200.0, 
+          "submitter_id": "TCGA-A2-A25D-01A-12", 
+          "weight": 30.0, 
+          "portion_number": "12", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "f597ab1d-b9e2-42ce-b9cf-57ee1415a76b", 
+      "submitter_id": "TCGA-A2-A25D-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 224, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "5bbaae03-12ce-459b-bca9-908b6ee6d089", 
+              "experimental_protocol_type": "Pre-extracted DNA received by TSS", 
+              "aliquots": [
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-A2-A25D-10A-01D-A89A-36", 
+                  "concentration": 0.18, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T02:53:27.396446-05:00", 
+                  "aliquot_quantity": 9.0, 
+                  "aliquot_id": "649fc5f3-4303-4914-abf5-6884bb48c755", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 2.34, 
+                  "aliquot_id": "8cfcbca6-ef32-45ab-9dd7-65d6ac9cefca", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:20.613442-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-10A-01D-A16B-02", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 3.6, 
+                  "aliquot_id": "a65719dd-2213-43c2-9f5b-1e82632009dc", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:24.327220-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-10A-01D-A16D-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }, 
+                {
+                  "aliquot_quantity": 1.21, 
+                  "aliquot_id": "e624a0dd-2fa7-4fb0-aad6-ca29bb202fdb", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:22.400948-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-10A-01D-A16C-01", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 6.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T02:53:19.215863-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-A2-A25D-10A-01D", 
+              "concentration": 0.18, 
+              "state": "released", 
+              "a260_a280_ratio": 2.05, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "analyte_id": "e93f17b8-f83b-4c3b-a9ac-542e9653855e", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "9ab23f5c-848c-48bb-9009-fbe35c876076", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T02:53:29.361373-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-A2-A25D-10A-01W-A189-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T02:53:27.969329-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-A2-A25D-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }
+          ], 
+          "portion_id": "f7bed9b2-5d7b-466d-854f-cd8c87e575b8", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1304380800.0, 
+          "submitter_id": "TCGA-A2-A25D-10A-01", 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "3bf81a9f-abb4-4495-a514-fd3865e13a03", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-BH-A201", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "7893162b-3d19-4c54-86ee-aa4884d84e8a", 
+      "pathology_report_uuid": "6AE92F6F-E29D-43B6-AF1E-F15720C1AAE8", 
+      "submitter_id": "TCGA-BH-A201-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 86, 
+      "state": "released", 
+      "initial_weight": 120.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "27773791-0c8a-421a-9469-3e9b93ce80d2", 
+          "updated_datetime": "2022-04-29T08:11:29.087809-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1310601600.0, 
+          "submitter_id": "TCGA-BH-A201-01A-21-A17I-20", 
+          "weight": 20.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [
+            {
+              "analyte_id": "8771ba0e-fd19-4496-a410-03b7a8607e34", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.21, 
+                  "aliquot_id": "04535564-8d05-46cb-9766-d893cfde001f", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:10.220180-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11D-A14I-02", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 4.54, 
+                  "aliquot_id": "7b384021-0cc7-4e32-83bc-a56c1cdda61f", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:16.235294-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11D-A14N-05", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-BH-A201-01A-11D-A899-36", 
+                  "concentration": 0.17, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T08:11:19.368831-05:00", 
+                  "aliquot_quantity": 8.5, 
+                  "aliquot_id": "b1aa4b8f-fd57-4dfa-bdfa-11121c261f63", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 4.81, 
+                  "aliquot_id": "df6e619f-67a5-49f3-9768-4826aa2c9d1b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:14.188216-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11D-A14K-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 53.4
+                }, 
+                {
+                  "aliquot_quantity": 1.13, 
+                  "aliquot_id": "f4e002a0-1f2f-4ffd-bff9-8020c931d51b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:12.075871-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11D-A14J-01", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T08:11:08.841954-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-BH-A201-01A-11D", 
+              "concentration": 0.17, 
+              "state": "released", 
+              "a260_a280_ratio": 1.81, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 4.54, 
+                  "aliquot_id": "a7050752-eefd-4576-a304-c79dc6fa30e7", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:23.651029-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11R-A14M-07", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }, 
+                {
+                  "aliquot_quantity": 3.4, 
+                  "aliquot_id": "b5b716d6-6b3d-4df7-9f85-8671b703e875", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:21.767169-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11R-A14L-13", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }
+              ], 
+              "submitter_id": "TCGA-BH-A201-01A-11R", 
+              "concentration": 0.17, 
+              "ribosomal_rna_28s_16s_ratio": 1.1, 
+              "analyte_type_id": "R", 
+              "analyte_id": "c659c2c7-1831-490a-9d81-dc0372520b59", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-29T08:11:20.190525-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 7.4, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.76
+            }, 
+            {
+              "analyte_id": "f4fd8f55-cdd4-4d2e-ae13-c801ebbf0212", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "9f436d06-3483-4c2a-ba9b-a389300adf64", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:27.041848-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-01A-11W-A16I-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T08:11:25.615191-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-BH-A201-01A-11W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }
+          ], 
+          "portion_id": "c0b80cf3-a176-46cc-82e9-eb3d8573d2ea", 
+          "slides": [
+            {
+              "percent_stromal_cells": 30.0, 
+              "submitter_id": "TCGA-BH-A201-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 65.0, 
+              "slide_id": "19e3ea38-ce75-49fb-81b3-45e14890f370", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 5.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 65.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1302220800.0, 
+          "submitter_id": "TCGA-BH-A201-01A-11", 
+          "weight": 30.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "c1a9ad83-8d9f-4806-bcef-35a130dcab45", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-BH-A201-01A-21", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "85a71635-6bce-414e-b7f9-c329b163ef9f", 
+      "submitter_id": "TCGA-BH-A201-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 86, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "1655e9af-91e6-43a7-978c-55ebc8a17626", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "0ad0b0a4-3915-4238-ae01-34fb45cc13af", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:43.494459-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-10A-01W-A16I-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T08:11:42.194782-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-BH-A201-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "analyte_id": "19bd2959-6867-4bab-aadd-22211963f819", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 1.0, 
+                  "aliquot_id": "23522a5d-f514-421c-b038-8f28bccab48e", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:35.649105-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-10A-01D-A14J-01", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-BH-A201-10A-01D-A899-36", 
+                  "concentration": 0.15, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T08:11:41.611423-05:00", 
+                  "aliquot_quantity": 7.5, 
+                  "aliquot_id": "28054e76-83c1-4a56-8061-29a569f84e8b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 1.95, 
+                  "aliquot_id": "e28743b4-2518-4d5f-8758-be63acbf1d90", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:33.959622-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-10A-01D-A14I-02", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "ec9e0f5b-4363-422c-bdbd-c6eb48504a93", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T08:11:38.160846-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A201-10A-01D-A14K-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 53.4
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T08:11:32.555589-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-BH-A201-10A-01D", 
+              "concentration": 0.15, 
+              "state": "released", 
+              "a260_a280_ratio": 1.83, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "35b11212-5fe4-431e-838d-3c32622677e5", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1303084800.0, 
+          "submitter_id": "TCGA-BH-A201-10A-01", 
+          "weight": 2.0, 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "f00b141c-a87e-4450-8b16-4f8db733c460", 
+      "submitter_id": "TCGA-BH-A201-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:10:31.746556-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "e9f91daf-c5db-5aa6-a229-6783dd23dcc7", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-BH-A201-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "0b29b3e7-0225-4c95-a89f-459d31ab3ea5", 
+              "created_datetime": "2018-05-17T13:32:38.220752-05:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "3c275152-d04b-440c-9621-2fc05ea977b6", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-AR-A5QP", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "151a1187-e07e-4b76-b2d2-2da133b9116b", 
+      "pathology_report_uuid": "F2409024-D848-4B02-A371-92BEA1105EC4", 
+      "submitter_id": "TCGA-AR-A5QP-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 498, 
+      "state": "released", 
+      "initial_weight": 230.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "160070ff-2113-459e-b1ab-ffe2167da75d", 
+          "updated_datetime": "2022-04-28T17:16:22.643208-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1377648000.0, 
+          "submitter_id": "TCGA-AR-A5QP-01A-21-A321-20", 
+          "weight": 20.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "50aa1389-c62f-4b5e-a979-e6d1f2baf6de", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-AR-A5QP-01A-21", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }, 
+        {
+          "analytes": [
+            {
+              "analyte_id": "1729243c-b6a9-437b-9d17-cc6057f7f002", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.21, 
+                  "aliquot_id": "0709b78f-fd83-41d5-89ee-c4114edef442", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:02.223119-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11D-A28C-05", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 1.14, 
+                  "aliquot_id": "62f32fa7-690a-4896-980a-831208a3c6ae", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:15:58.401728-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11D-A28A-01", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 6.7
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11D-A89D-36", 
+                  "concentration": 0.17, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-28T17:16:08.900897-05:00", 
+                  "aliquot_quantity": 8.5, 
+                  "aliquot_id": "7cbf9093-5843-4341-86e2-250de26da7b4", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 3.6, 
+                  "aliquot_id": "a0e90c6c-34d0-4c1c-8c71-a914961a6847", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:00.316037-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11D-A28B-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-28T17:15:55.465432-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "PicoGreen", 
+              "submitter_id": "TCGA-AR-A5QP-01A-11D", 
+              "concentration": 0.17, 
+              "state": "released", 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 3.0, 
+                  "aliquot_id": "6817ecec-983c-46c6-8dc7-8e2dc2aa5f1c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:15.629500-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11R-A28I-13", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }, 
+                {
+                  "aliquot_quantity": 1.95, 
+                  "aliquot_id": "b2d0c724-40ae-44ca-90eb-ce86a9546c05", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:17.513978-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11R-A28M-07", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }
+              ], 
+              "submitter_id": "TCGA-AR-A5QP-01A-11R", 
+              "concentration": 0.15, 
+              "ribosomal_rna_28s_16s_ratio": 1.7, 
+              "analyte_type_id": "R", 
+              "analyte_id": "2fe42746-63f8-447b-9258-2b29a0960abe", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-28T17:16:13.410433-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 8.8, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.83
+            }, 
+            {
+              "analyte_id": "ee4ba4c6-83da-4fde-a2c2-4fcd22fc7687", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "680b2bf1-beaa-4b97-865e-9043d013f7ec", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:20.562732-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-01A-11W-A30R-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-28T17:16:19.217027-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-AR-A5QP-01A-11W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }
+          ], 
+          "portion_id": "e8ac881b-d313-4fcd-844f-4b52dd8c9701", 
+          "slides": [
+            {
+              "percent_stromal_cells": 20.0, 
+              "submitter_id": "TCGA-AR-A5QP-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 80.0, 
+              "slide_id": "b74ea482-2fd1-43a7-9cf0-ce1462e73e84", 
+              "percent_neutrophil_infiltration": 20.0, 
+              "percent_lymphocyte_infiltration": 40.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 20.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 80.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1360886400.0, 
+          "submitter_id": "TCGA-AR-A5QP-01A-11", 
+          "weight": 30.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "59c725b3-74c1-4ae0-a360-fa8a4c0886e7", 
+      "submitter_id": "TCGA-AR-A5QP-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 498, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "93a6d9a2-8c5a-4fe2-ab12-030fa7b530ed", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "8a1ca7b1-63d2-419c-bd0f-d1d55be89a4d", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:33.544167-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-10A-01W-A30S-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-28T17:16:32.084201-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-AR-A5QP-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "analyte_id": "ee770f9c-4710-4fb1-9b45-70f635142ac5", 
+              "experimental_protocol_type": "Pre-extracted DNA received by TSS", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 1.01, 
+                  "aliquot_id": "14a018ea-d168-4642-9db2-7b02846c025d", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:26.954168-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-10A-01D-A28D-01", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 6.7
+                }, 
+                {
+                  "aliquot_quantity": 3.2, 
+                  "aliquot_id": "60b54869-5add-4799-89a0-e5f090801826", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T17:16:28.799140-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-AR-A5QP-10A-01D-A28E-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-AR-A5QP-10A-01D-A89D-36", 
+                  "concentration": 0.15, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-28T17:16:31.575997-05:00", 
+                  "aliquot_quantity": 7.5, 
+                  "aliquot_id": "b6855304-56d1-4f4c-b340-87434792edf0", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-28T17:16:25.680667-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "PicoGreen", 
+              "submitter_id": "TCGA-AR-A5QP-10A-01D", 
+              "concentration": 0.15, 
+              "state": "released", 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "637eaefa-9f92-48ef-9bb0-d94947da07e9", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1360281600.0, 
+          "submitter_id": "TCGA-AR-A5QP-10A-01", 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "74e2ed6a-5068-40e2-9ffc-31026d3731af", 
+      "submitter_id": "TCGA-AR-A5QP-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:10:31.746556-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "baf57b00-fef7-5245-b361-2f9e762cea12", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-AR-A5QP-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "3b1e7cea-af95-4d3b-a8e8-d684d53a0bae", 
+              "created_datetime": "2018-05-17T13:32:38.220752-05:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "3c612e12-6de8-44fa-a095-805c45474821", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-BH-A0W3", 
+  "samples": [
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "50f458c1-d49e-4acc-986b-e89a8ade2aad", 
+      "submitter_id": "TCGA-BH-A0W3-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-04-28T11:52:50.495954-05:00", 
+      "days_to_collection": 85, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "1953d504-38c0-4dff-9ed2-408f960417bf", 
+              "experimental_protocol_type": "Repli-G X", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "6f5bdee8-4595-46eb-960a-3001189bb761", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:33.840670-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-10A-01X-A10H-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G X (Qiagen) DNA", 
+              "updated_datetime": "2022-04-28T22:03:30.853244-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-BH-A0W3-10A-01X", 
+              "state": "released", 
+              "analyte_type_id": "X"
+            }, 
+            {
+              "analyte_id": "c6cf5190-25c4-4684-b112-2bf0d3712196", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.21, 
+                  "aliquot_id": "245fb95a-a7e5-4253-9c9c-59cad26380a0", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:20.724232-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-10A-01D-A106-02", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 2.08, 
+                  "aliquot_id": "7c4982ec-17d3-48c7-be29-c76c2d57437a", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:28.449937-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-10A-01D-A10G-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 26.0
+                }, 
+                {
+                  "aliquot_quantity": 1.13, 
+                  "aliquot_id": "e017fbed-f676-4f4f-9246-f02aa700423b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:26.309883-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-10A-01D-A107-01", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-28T22:03:18.746404-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-BH-A0W3-10A-01D", 
+              "concentration": 0.17, 
+              "state": "released", 
+              "a260_a280_ratio": 1.91, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "48582879-f3fa-42b4-b7ec-b47ea1719bc3", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1286236800.0, 
+          "submitter_id": "TCGA-BH-A0W3-10A-01", 
+          "weight": 200.0, 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "9ad80473-9148-45a7-ad6d-9936a899e022", 
+      "pathology_report_uuid": "801A4E2F-E26E-424F-BF42-CD0D9CD62BCE", 
+      "submitter_id": "TCGA-BH-A0W3-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:06:28.481482-06:00", 
+      "days_to_collection": 85, 
+      "state": "released", 
+      "initial_weight": 120.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "000d0385-f816-4319-af03-17e9b415f3a3", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 1.82, 
+                  "aliquot_id": "3fa14183-e0c5-4dc2-bb4a-d8dd42f6578b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:05.194112-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11D-A10G-09", 
+                  "concentration": 0.07, 
+                  "state": "released", 
+                  "aliquot_volume": 26.0
+                }, 
+                {
+                  "aliquot_quantity": 1.69, 
+                  "aliquot_id": "64d238ae-78c0-4b63-a260-f5ca85727d85", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:02:59.002158-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11D-A106-02", 
+                  "concentration": 0.13, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 0.87, 
+                  "aliquot_id": "6b6c28fb-84ba-407c-9317-3fad63e9e35d", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:00.980577-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11D-A107-01", 
+                  "concentration": 0.13, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "aliquot_quantity": 3.47, 
+                  "aliquot_id": "f954b1fc-c5a1-4c62-8a4e-9baabba36940", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:03.078087-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11D-A10A-05", 
+                  "concentration": 0.13, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-28T22:02:57.428101-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-BH-A0W3-01A-11D", 
+              "concentration": 0.13, 
+              "state": "released", 
+              "a260_a280_ratio": 2.0, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 4.01, 
+                  "aliquot_id": "0def3ef8-7608-483c-b899-4d459f6d2e2d", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:10.776969-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11R-A109-07", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }, 
+                {
+                  "aliquot_quantity": 3.0, 
+                  "aliquot_id": "84541301-4d09-425d-bf9b-84f8f440452e", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:08.747965-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11R-A108-13", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }
+              ], 
+              "submitter_id": "TCGA-BH-A0W3-01A-11R", 
+              "concentration": 0.15, 
+              "ribosomal_rna_28s_16s_ratio": 1.8, 
+              "analyte_type_id": "R", 
+              "analyte_id": "916a18fa-cfbe-4e01-b4bc-0260215d17b5", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-28T22:03:07.276192-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 9.5, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.75
+            }, 
+            {
+              "analyte_id": "f4840778-50da-4208-a381-e4002086ce04", 
+              "experimental_protocol_type": "Repli-G X", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "aa285c40-b915-45a7-898a-774f647d5e0b", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-28T22:03:14.396976-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-BH-A0W3-01A-11X-A10H-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G X (Qiagen) DNA", 
+              "updated_datetime": "2022-04-28T22:03:12.783373-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-BH-A0W3-01A-11X", 
+              "state": "released", 
+              "analyte_type_id": "X"
+            }
+          ], 
+          "portion_id": "2aab3739-0f00-4201-92ae-ac1385412a40", 
+          "slides": [
+            {
+              "percent_stromal_cells": 30.0, 
+              "submitter_id": "TCGA-BH-A0W3-01A-01-BS1", 
+              "section_location": "BOTTOM", 
+              "percent_tumor_cells": 70.0, 
+              "slide_id": "9f99ad93-48ed-4780-ac06-f70d8aefb2f5", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 85.0
+            }, 
+            {
+              "percent_stromal_cells": 30.0, 
+              "submitter_id": "TCGA-BH-A0W3-01A-01-TS1", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 70.0, 
+              "slide_id": "bb03a842-a10c-46d5-a07b-829be4a3fb68", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 80.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1286150400.0, 
+          "submitter_id": "TCGA-BH-A0W3-01A-11", 
+          "weight": 30.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "dd4e16c5-1f9d-40c7-b381-da19d6189433", 
+      "submitter_id": "TCGA-BH-A0W3-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:12:29.643720-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "6da5ee4c-dc0c-5aea-9e6e-b85d120f405e", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-BH-A0W3-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "45020f7c-9157-4ec4-bd06-39a2dca9e2ee", 
+              "created_datetime": "2018-05-17T13:34:27.834235-05:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "3d676bba-154b-4d22-ab59-d4d4da051b94", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-E9-A1NE", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "0ca24149-4cc4-4ad1-b448-4cc33fef851e", 
+      "pathology_report_uuid": "CF6E29A2-FAE6-45BB-B625-33877887A89E", 
+      "submitter_id": "TCGA-E9-A1NE-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 31, 
+      "state": "released", 
+      "initial_weight": 280.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "26406ac8-f4e4-4ae9-bc94-0f9a70d6b887", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.34, 
+                  "aliquot_id": "a1cc4fa1-90bf-47e8-91be-1f9a2eac7d38", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:30.431579-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21D-A14I-02", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 4.81, 
+                  "aliquot_id": "dbd34322-ac40-41f0-acc7-7bfd06afdf67", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:33.771831-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21D-A14K-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 53.4
+                }, 
+                {
+                  "aliquot_quantity": 4.81, 
+                  "aliquot_id": "e0e7613c-79ce-4acc-88a0-c7a68133c98f", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:35.627111-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21D-A14N-05", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21D-A89F-36", 
+                  "concentration": 0.18, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T04:25:38.786020-05:00", 
+                  "aliquot_quantity": 9.0, 
+                  "aliquot_id": "ebbdd898-363f-4b06-9824-ca8885d1f1cb", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 1.2, 
+                  "aliquot_id": "f7aa01e5-56c8-4c23-94f5-c028f5b8057c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:32.106450-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21D-A14J-01", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:25:29.063948-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1NE-01A-21D", 
+              "concentration": 0.18, 
+              "state": "released", 
+              "a260_a280_ratio": 1.89, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "analyte_id": "49996238-c868-4e3a-ab13-233bd8c73a95", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "f75f4078-ae8a-41c3-b860-da8dbfa496b5", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:45.491012-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21W-A16I-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T04:25:44.044608-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-E9-A1NE-01A-21W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "92691eb7-5df9-4da9-8bd0-c4f4de528bdc", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:42.324592-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21R-A14M-07", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }, 
+                {
+                  "aliquot_quantity": 3.2, 
+                  "aliquot_id": "cca6fb4f-8d72-4812-a3da-25f99737c990", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:40.691663-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-01A-21R-A14L-13", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }
+              ], 
+              "submitter_id": "TCGA-E9-A1NE-01A-21R", 
+              "concentration": 0.16, 
+              "ribosomal_rna_28s_16s_ratio": 1.8, 
+              "analyte_type_id": "R", 
+              "analyte_id": "a9f7f05b-876a-4ef7-bd5f-3416770e1e85", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-29T04:25:39.370972-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 9.2, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.64
+            }
+          ], 
+          "portion_id": "389349c5-f17d-4948-8bac-dc57ca6a81b2", 
+          "slides": [
+            {
+              "percent_stromal_cells": 19.0, 
+              "submitter_id": "TCGA-E9-A1NE-01A-02-TSB", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 70.0, 
+              "slide_id": "f07c5332-4933-4459-a1cc-7fbdff4cf75d", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 4.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 3.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 8.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 85.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1302220800.0, 
+          "submitter_id": "TCGA-E9-A1NE-01A-21", 
+          "weight": 30.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "8eb2885b-f9c7-4fcc-a9fe-a7673af9a3ec", 
+          "updated_datetime": "2022-04-29T04:25:27.396885-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1311120000.0, 
+          "submitter_id": "TCGA-E9-A1NE-01A-11-A17K-20", 
+          "weight": 20.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "f0608313-566f-478b-8930-a3c4fb57a570", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-E9-A1NE-01A-11", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "3a2e8d26-89d4-49a7-ad32-666aa8005d7f", 
+      "submitter_id": "TCGA-E9-A1NE-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:12:29.643720-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "7433efdf-5b83-5262-a91e-a4c386605ff6", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-E9-A1NE-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "eac5dd5e-f1e1-4ce6-b57a-5bee6998b53e", 
+              "created_datetime": "2018-05-17T13:34:27.834235-05:00"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "613e90ae-6a56-4eae-a632-5c6e0c3a8d97", 
+      "submitter_id": "TCGA-E9-A1NE-10B", 
+      "sample_type": "Blood Derived Normal", 
+      "created_datetime": "2022-04-29T04:26:05.282878-05:00", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+      "days_to_collection": 31, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "334aace1-afc8-4327-95de-e8227f61209a", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-E9-A1NE-10B-01D-A89F-36", 
+                  "concentration": 0.14, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T04:26:10.901907-05:00", 
+                  "aliquot_quantity": 7.0, 
+                  "aliquot_id": "6adf5213-84ee-451b-8a0c-7106e66f1d6a", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "PicoGreen", 
+              "submitter_id": "TCGA-E9-A1NE-10B-01D", 
+              "concentration": 0.14, 
+              "state": "released", 
+              "analyte_type_id": "D", 
+              "created_datetime": "2022-04-29T04:26:09.174204-05:00"
+            }
+          ], 
+          "portion_id": "befe9311-e40d-4faf-b3c1-b09a485eaee4", 
+          "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+          "creation_datetime": 1640649600.0, 
+          "submitter_id": "TCGA-E9-A1NE-10B-01", 
+          "weight": 2.0, 
+          "portion_number": "1", 
+          "state": "released", 
+          "is_ffpe": "false", 
+          "created_datetime": "2022-04-29T04:26:07.417675-05:00"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "6812b5e3-3297-406e-9c0c-9f612889e61c", 
+      "submitter_id": "TCGA-E9-A1NE-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 31, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "41985826-d901-4f27-a9d5-ca9eade67d6b", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "7a5a49de-f5a8-44ef-8de6-bd5cbbe53ec3", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:26:00.802014-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-10A-01W-A16I-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T04:25:59.412299-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-E9-A1NE-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "analyte_id": "d7b280a3-7c17-4837-bbfd-a3d8fb869deb", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.21, 
+                  "aliquot_id": "2dfc1a02-d0f5-41ed-84bb-1b65dd60505c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:51.162420-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-10A-01D-A14I-02", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 1.13, 
+                  "aliquot_id": "35c5ec82-7086-4fdd-84f0-dd6979e8573c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:53.301827-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-10A-01D-A14J-01", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "aliquot_quantity": 4.16, 
+                  "aliquot_id": "43d0995e-d158-49b2-86cd-542652c2b984", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:57.468835-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-10A-01D-A17G-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 52.0
+                }, 
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "992642bc-6b17-456e-acf5-e2ec2a1f2a08", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:25:55.179931-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-10A-01D-A14K-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 53.4
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:25:49.416897-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1NE-10A-01D", 
+              "concentration": 0.17, 
+              "state": "released", 
+              "a260_a280_ratio": 1.84, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "ea84d09d-ceca-44cc-b513-9885b3159051", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1302566400.0, 
+          "submitter_id": "TCGA-E9-A1NE-10A-01", 
+          "weight": 2.0, 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "11", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "d36595e0-5190-45d4-a5c4-8002bc4e0b12", 
+      "submitter_id": "TCGA-E9-A1NE-11A", 
+      "sample_type": "Solid Tissue Normal", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:21:17.930864-06:00", 
+      "days_to_collection": 31, 
+      "state": "released", 
+      "initial_weight": 830.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "233fe7ac-4003-4a6c-80a1-101b561b6842", 
+          "updated_datetime": "2022-04-29T04:26:16.633797-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1402876800.0, 
+          "submitter_id": "TCGA-E9-A1NE-11A-51-A43O-20", 
+          "weight": 20.0, 
+          "portion_number": "51", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [
+            {
+              "analyte_id": "b71618ba-baea-4a9a-8e4c-56737260e5a5", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 4.54, 
+                  "aliquot_id": "9fffdb96-3b91-44a7-8f4c-0b153a0227e7", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:26:14.563811-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1NE-11A-43D-A14N-05", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:26:13.061717-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1NE-11A-43D", 
+              "concentration": 0.17, 
+              "state": "released", 
+              "a260_a280_ratio": 1.68, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "8ad4592e-72bc-4ab1-aebb-c86ec50c4086", 
+          "slides": [
+            {
+              "percent_stromal_cells": 98.0, 
+              "submitter_id": "TCGA-E9-A1NE-11A-03-TSC", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "70d3974a-8daf-4276-af52-9e72e7780782", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 2.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 96.0, 
+              "submitter_id": "TCGA-E9-A1NE-11A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "7b650e79-2426-4943-a181-07bc7cb769e2", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 4.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 97.0, 
+              "submitter_id": "TCGA-E9-A1NE-11A-04-TSD", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "b5b0310e-3708-429e-889e-93fa599ad095", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 3.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 72.0, 
+              "submitter_id": "TCGA-E9-A1NE-11A-02-TSB", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "be97a15b-8843-4a6b-84fe-010164d4b935", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 0.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 28.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1303084800.0, 
+          "submitter_id": "TCGA-E9-A1NE-11A-43", 
+          "weight": 280.0, 
+          "portion_number": "43", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "a9392f04-7726-4235-9c21-afd62889dfd7", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-E9-A1NE-11A-51", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "abdc76db-f85e-4337-a57e-6d098789da03", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-C8-A12P", 
+  "samples": [
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "0d5aa7a3-3488-4339-b8f1-e4971912e2bc", 
+      "pathology_report_uuid": "F04324BB-F0B1-4948-9189-7833646029F1", 
+      "submitter_id": "TCGA-C8-A12P-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 57, 
+      "state": "released", 
+      "initial_weight": 380.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 3.2, 
+                  "aliquot_id": "9e23698a-f0d3-4576-85ce-a204416befd8", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:40.039823-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11R-A114-13", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }, 
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "9e30b9ee-391d-40d9-8eba-de47656f3629", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:41.669045-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11R-A115-07", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "submitter_id": "TCGA-C8-A12P-01A-11R", 
+              "concentration": 0.16, 
+              "ribosomal_rna_28s_16s_ratio": 2.0, 
+              "analyte_type_id": "R", 
+              "analyte_id": "42a4f658-2456-4c6d-9dfe-deb6113f27f3", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-29T05:24:38.056985-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 9.5, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 2.02
+            }, 
+            {
+              "analyte_id": "5283eae0-0c4b-4bf0-9675-0c37392709fb", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "90b503cb-7f29-418a-85c9-67c7e5659980", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:44.618277-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11W-A12T-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T05:24:43.360515-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-C8-A12P-01A-11W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "analyte_id": "cf101b29-816d-436c-b69a-edf20bfa0fae", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-C8-A12P-01A-11D-A894-36", 
+                  "concentration": 0.16, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T05:24:37.170471-05:00", 
+                  "aliquot_quantity": 8.0, 
+                  "aliquot_id": "0065ce98-da04-4e19-9be8-97ae7d38e0f0", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 2.08, 
+                  "aliquot_id": "1492fb4c-2a89-4bee-8e3f-1a8d27e835fe", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:28.603109-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11D-A10X-02", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 2.08, 
+                  "aliquot_id": "540fe594-0186-40d3-b519-c1ccebe82247", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:30.244547-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11D-A10Y-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 26.0
+                }, 
+                {
+                  "aliquot_quantity": 1.07, 
+                  "aliquot_id": "cf2aac8b-1f32-4f0c-91f6-4b80c38d4419", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:32.049551-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11D-A111-01", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "aliquot_quantity": 4.27, 
+                  "aliquot_id": "cfd7b814-7647-4bfd-9e16-701d71c74546", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:34.077250-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-01A-11D-A112-05", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T05:24:27.145087-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-C8-A12P-01A-11D", 
+              "concentration": 0.16, 
+              "state": "released", 
+              "a260_a280_ratio": 1.93, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "0b563248-5723-4ea2-830d-12e758dbbb75", 
+          "slides": [
+            {
+              "percent_stromal_cells": 28.0, 
+              "submitter_id": "TCGA-C8-A12P-01A-01-BSA", 
+              "section_location": "BOTTOM", 
+              "percent_tumor_cells": 70.0, 
+              "slide_id": "0c86a6ed-1d8f-47a9-ab33-7d232c3e359b", 
+              "percent_neutrophil_infiltration": 1.0, 
+              "percent_lymphocyte_infiltration": 2.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 2.0, 
+              "percent_monocyte_infiltration": 2.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 70.0
+            }, 
+            {
+              "percent_stromal_cells": 15.0, 
+              "submitter_id": "TCGA-C8-A12P-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 85.0, 
+              "slide_id": "a635ee87-3392-4ce7-93a3-87fc5680e4e9", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 1.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 85.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1290988800.0, 
+          "submitter_id": "TCGA-C8-A12P-01A-11", 
+          "weight": 30.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "a3b71b2e-5bb6-4585-95e7-6a2ddbf99659", 
+          "updated_datetime": "2022-04-29T05:24:46.559483-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1300147200.0, 
+          "submitter_id": "TCGA-C8-A12P-01A-21-A13D-20", 
+          "weight": 20.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "b800d5b1-4e19-4ea2-bd4f-6a1536f0f4d2", 
+          "updated_datetime": "2022-04-29T05:24:48.038964-05:00", 
+          "center": {
+            "code": "30", 
+            "center_id": "9a5b07b4-68f3-5d62-8fb6-b96903561b43", 
+            "name": "Washington University School of Medicine Proteomics", 
+            "namespace": "genome.wustl.edu", 
+            "short_name": "WUSM", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1332201600.0, 
+          "submitter_id": "TCGA-C8-A12P-01A-22-A21W-30", 
+          "weight": 150.0, 
+          "portion_number": "22", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "eb71f00d-490a-4fbf-94c7-9619a35a1e82", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-C8-A12P-01A-21", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "21535819-c583-42b4-94bc-860e730792e4", 
+      "submitter_id": "TCGA-C8-A12P-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:12:29.643720-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "a708594a-777a-5a10-a61a-dd6578a0fbba", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-C8-A12P-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "283b9b24-5f93-4a26-af2f-8a14446ca146", 
+              "created_datetime": "2018-05-17T13:34:27.834235-05:00"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "48d3fc2d-2194-4dcb-8366-6c01f185bbdb", 
+      "submitter_id": "TCGA-C8-A12P-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 57, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "08b934cc-34ad-4cc6-98aa-c7d7e732655d", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "397d2fc1-33c6-4863-bb60-5301d6c9806a", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:25:05.589557-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-10A-01W-A12U-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T05:25:04.163111-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-C8-A12P-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }, 
+            {
+              "analyte_id": "24d91805-53be-437b-9ff8-f503e7abd393", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 2.08, 
+                  "aliquot_id": "323e0bfd-8f8f-41a8-a94a-8d2d862a15b1", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:54.926876-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-10A-01D-A110-09", 
+                  "concentration": 0.08, 
+                  "state": "released", 
+                  "aliquot_volume": 26.0
+                }, 
+                {
+                  "aliquot_quantity": 1.07, 
+                  "aliquot_id": "6c7999b5-d6a6-423e-b993-cfabcc35482e", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:56.582669-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-10A-01D-A113-01", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "aliquot_quantity": 2.08, 
+                  "aliquot_id": "7e8c7462-7d04-42a1-b815-92fefcf37635", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T05:24:53.189785-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-C8-A12P-10A-01D-A10Z-02", 
+                  "concentration": 0.16, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-C8-A12P-10A-01D-A894-36", 
+                  "concentration": 0.16, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T05:25:03.525422-05:00", 
+                  "aliquot_quantity": 8.0, 
+                  "aliquot_id": "b4cbd26a-4189-46ee-9bb9-bf5c97d2e7ab", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T05:24:51.686724-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-C8-A12P-10A-01D", 
+              "concentration": 0.16, 
+              "state": "released", 
+              "a260_a280_ratio": 2.0, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "a49ccb61-b4a9-43b0-8d3b-a5e9cf02a21b", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1292457600.0, 
+          "submitter_id": "TCGA-C8-A12P-10A-01", 
+          "weight": 2.0, 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }
+  ]
+},{
+  "case_id": "ac075bc0-1b59-4557-beea-541694faee03", 
+  "project": {
+    "project_id": "TCGA-BRCA"
+  }, 
+  "submitter_id": "TCGA-E9-A1N8", 
+  "samples": [
+    {
+      "sample_type_id": "10", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "146a19c4-b78a-458d-a92b-0b2a724d3e69", 
+      "submitter_id": "TCGA-E9-A1N8-10A", 
+      "sample_type": "Blood Derived Normal", 
+      "oct_embedded": "false", 
+      "specimen_type": "Peripheral Blood NOS", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:18:59.877319-06:00", 
+      "days_to_collection": 66, 
+      "state": "released", 
+      "is_ffpe": "false", 
+      "preservation_method": "Unknown", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "83a67f53-7214-40ac-b62f-d6737706f80c", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 5.2, 
+                  "aliquot_id": "91eb46af-a239-4482-ac32-b4a930aa91c3", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:54.533312-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-10A-01D-A142-09", 
+                  "concentration": 0.13, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-E9-A1N8-10A-01D-A897-36", 
+                  "concentration": 0.25, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T04:13:57.738650-05:00", 
+                  "aliquot_quantity": 12.5, 
+                  "aliquot_id": "e0f5b322-10ca-4ff2-a250-ccfd152b6be1", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 3.25, 
+                  "aliquot_id": "e10181af-12c3-4be5-a6fc-082ae3de6e1d", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:50.930518-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-10A-01D-A140-02", 
+                  "concentration": 0.25, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 1.67, 
+                  "aliquot_id": "fbcaa7b5-9ca9-4df2-a214-b98918e91f49", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:52.809048-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-10A-01D-A141-01", 
+                  "concentration": 0.25, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:13:49.532326-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1N8-10A-01D", 
+              "concentration": 0.25, 
+              "state": "released", 
+              "a260_a280_ratio": 2.01, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "analyte_id": "c9b6af37-42f5-43d8-8a5e-8eb6c43b46db", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "77452972-f8d2-4dd9-99ad-4add353e5776", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:59.875347-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-10A-01W-A187-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T04:13:58.470332-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-E9-A1N8-10A-01W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }
+          ], 
+          "portion_id": "b29d9b70-7b59-44d9-bd6b-add6202f5aee", 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1300838400.0, 
+          "submitter_id": "TCGA-E9-A1N8-10A-01", 
+          "weight": 1000.0, 
+          "portion_number": "01", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "1cb30c30-48ee-4475-8c80-e0e9bb5a8c24", 
+      "submitter_id": "TCGA-E9-A1N8-01Z", 
+      "sample_type": "Primary Tumor", 
+      "created_datetime": "2018-05-17T12:10:31.746556-05:00", 
+      "oct_embedded": "No", 
+      "specimen_type": "Solid Tissue", 
+      "days_to_sample_procurement": 0, 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "state": "released", 
+      "is_ffpe": "true", 
+      "preservation_method": "FFPE", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "a1f8b7ac-c2b6-57da-8e37-6b4c35dfad22", 
+          "slides": [
+            {
+              "updated_datetime": "2018-08-23T19:24:29.874737-05:00", 
+              "submitter_id": "TCGA-E9-A1N8-01Z-00-DX1", 
+              "section_location": "Not Reported", 
+              "state": "released", 
+              "slide_id": "fd2b4440-e054-41db-bebb-8c42320b36f4", 
+              "created_datetime": "2018-05-17T13:32:38.220752-05:00"
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "01", 
+      "tumor_descriptor": "Primary", 
+      "sample_id": "28e05d2f-0559-425a-accf-d5b4c1152548", 
+      "pathology_report_uuid": "4F15F8D6-9F34-4A61-A006-E5E7A2E68207", 
+      "submitter_id": "TCGA-E9-A1N8-01A", 
+      "sample_type": "Primary Tumor", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:17:33.420637-06:00", 
+      "days_to_collection": 66, 
+      "state": "released", 
+      "initial_weight": 680.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Tumor", 
+      "portions": [
+        {
+          "analytes": [], 
+          "portion_id": "75c89504-c6df-4313-ac00-427c9c30f17b", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-E9-A1N8-01A-21", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }, 
+        {
+          "analytes": [
+            {
+              "experimental_protocol_type": "mirVana (Allprep DNA) RNA", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 3.4, 
+                  "aliquot_id": "7cee831e-a857-435f-b67b-21930097731a", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:37.748493-05:00", 
+                  "center": {
+                    "code": "13", 
+                    "center_id": "6eba705a-0f00-5aa2-b1d0-04dbf62100cc", 
+                    "name": "Canada's Michael Smith Genome Sciences Centre", 
+                    "namespace": "bcgsc.ca", 
+                    "short_name": "BCGSC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11R-A143-13", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 20.0
+                }, 
+                {
+                  "aliquot_quantity": 4.54, 
+                  "aliquot_id": "7d6b6a17-5f1e-4586-9316-195c0e96925c", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:40.954647-05:00", 
+                  "center": {
+                    "code": "07", 
+                    "center_id": "ee7a85b3-8177-5d60-a10c-51180eb9009c", 
+                    "name": "University of North Carolina", 
+                    "namespace": "unc.edu", 
+                    "short_name": "UNC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11R-A144-07", 
+                  "concentration": 0.17, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "submitter_id": "TCGA-E9-A1N8-01A-11R", 
+              "concentration": 0.17, 
+              "ribosomal_rna_28s_16s_ratio": 1.8, 
+              "analyte_type_id": "R", 
+              "analyte_id": "08705b6c-5da3-4a94-8d49-31789de68eee", 
+              "analyte_type": "RNA", 
+              "updated_datetime": "2022-04-29T04:13:36.461128-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "rna_integrity_number": 9.1, 
+              "spectrophotometer_method": "UV Spec", 
+              "state": "released", 
+              "a260_a280_ratio": 1.91
+            }, 
+            {
+              "analyte_id": "26ed0ad1-473f-4709-aa68-7a5120a2011e", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 1.2, 
+                  "aliquot_id": "0179d350-8a90-4269-8eee-a0b971d23cb8", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:25.139453-05:00", 
+                  "center": {
+                    "code": "01", 
+                    "center_id": "5069ce55-a23f-57c4-a28c-70a3c3cb0e4c", 
+                    "name": "Broad Institute of MIT and Harvard", 
+                    "namespace": "broad.mit.edu", 
+                    "short_name": "BI", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11D-A141-01", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 6.67
+                }, 
+                {
+                  "no_matched_normal_targeted_sequencing": "false", 
+                  "selected_normal_low_pass_wgs": "false", 
+                  "selected_normal_wgs": "false", 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11D-A897-36", 
+                  "concentration": 0.18, 
+                  "no_matched_normal_wgs": "false", 
+                  "aliquot_volume": 50.0, 
+                  "created_datetime": "2022-04-29T04:13:35.846632-05:00", 
+                  "aliquot_quantity": 9.0, 
+                  "aliquot_id": "09b3d00b-8f37-460f-b00c-a803b82d182f", 
+                  "source_center": "23", 
+                  "updated_datetime": "2023-11-17T14:37:34.929253-06:00", 
+                  "selected_normal_wxs": "false", 
+                  "no_matched_normal_low_pass_wgs": "false", 
+                  "no_matched_normal_wxs": "false", 
+                  "selected_normal_targeted_sequencing": "false", 
+                  "state": "released"
+                }, 
+                {
+                  "aliquot_quantity": 2.34, 
+                  "aliquot_id": "51770759-f81b-426f-99a0-24a3f5bb5c65", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:21.605393-05:00", 
+                  "center": {
+                    "code": "02", 
+                    "center_id": "c8611490-4cbd-5651-8de2-64484a515eec", 
+                    "name": "Harvard Medical School", 
+                    "namespace": "hms.harvard.edu", 
+                    "short_name": "HMS", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11D-A140-02", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 13.0
+                }, 
+                {
+                  "aliquot_quantity": 3.6, 
+                  "aliquot_id": "cac57844-0e46-489b-8d94-ceea5788c050", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:29.359884-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11D-A142-09", 
+                  "concentration": 0.09, 
+                  "state": "released", 
+                  "aliquot_volume": 40.0
+                }, 
+                {
+                  "aliquot_quantity": 4.81, 
+                  "aliquot_id": "f723430a-9e62-4cd1-bf9d-2773e3aff1f5", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:33.025339-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11D-A145-05", 
+                  "concentration": 0.18, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:13:17.511186-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1N8-01A-11D", 
+              "concentration": 0.18, 
+              "state": "released", 
+              "a260_a280_ratio": 1.87, 
+              "analyte_type_id": "D"
+            }, 
+            {
+              "analyte_id": "99b5cbbe-fcae-49e2-b253-4eacb167a875", 
+              "experimental_protocol_type": "Repli-G", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 40.0, 
+                  "aliquot_id": "3002fa83-277e-4ca3-b133-ebdaaae96cf8", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:13:44.030997-05:00", 
+                  "center": {
+                    "code": "09", 
+                    "center_id": "956ca84c-1124-53ff-824f-fa0c84425425", 
+                    "name": "Washington University School of Medicine", 
+                    "namespace": "genome.wustl.edu", 
+                    "short_name": "WUSM", 
+                    "center_type": "GSC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-01A-11W-A187-09", 
+                  "concentration": 0.5, 
+                  "state": "released", 
+                  "aliquot_volume": 80.0
+                }
+              ], 
+              "analyte_type": "Repli-G (Qiagen) DNA", 
+              "updated_datetime": "2022-04-29T04:13:42.755456-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "submitter_id": "TCGA-E9-A1N8-01A-11W", 
+              "state": "released", 
+              "analyte_type_id": "W"
+            }
+          ], 
+          "portion_id": "7996d6ee-8884-41e3-93aa-385918945585", 
+          "slides": [
+            {
+              "percent_stromal_cells": 18.0, 
+              "submitter_id": "TCGA-E9-A1N8-01A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 80.0, 
+              "slide_id": "a3dc37f0-bcf7-447f-913d-616939f35f80", 
+              "percent_neutrophil_infiltration": 1.0, 
+              "percent_lymphocyte_infiltration": 2.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 2.0, 
+              "percent_monocyte_infiltration": 1.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 80.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1300060800.0, 
+          "submitter_id": "TCGA-E9-A1N8-01A-11", 
+          "weight": 30.0, 
+          "portion_number": "11", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "8ea109e3-1e03-468c-b117-43cbd5c7571d", 
+          "updated_datetime": "2022-04-29T04:13:46.123437-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1311120000.0, 
+          "submitter_id": "TCGA-E9-A1N8-01A-21-A17K-20", 
+          "weight": 20.0, 
+          "portion_number": "21", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }, 
+    {
+      "sample_type_id": "11", 
+      "tumor_descriptor": "Not Applicable", 
+      "sample_id": "b304fa8f-0bf8-45d8-99a4-627aaa6c02b7", 
+      "submitter_id": "TCGA-E9-A1N8-11A", 
+      "sample_type": "Solid Tissue Normal", 
+      "oct_embedded": "true", 
+      "specimen_type": "Solid Tissue", 
+      "composition": "Not Reported", 
+      "updated_datetime": "2023-11-08T11:21:17.930864-06:00", 
+      "days_to_collection": 66, 
+      "state": "released", 
+      "initial_weight": 510.0, 
+      "is_ffpe": "false", 
+      "preservation_method": "OCT", 
+      "tissue_type": "Normal", 
+      "portions": [
+        {
+          "analytes": [
+            {
+              "analyte_id": "29a0ae93-1c55-4059-9220-2139b28d746d", 
+              "experimental_protocol_type": "aDNA Preparation Type", 
+              "aliquots": [
+                {
+                  "aliquot_quantity": 4.01, 
+                  "aliquot_id": "21fdd5df-fde6-449b-90c6-ca687977dd18", 
+                  "source_center": "23", 
+                  "updated_datetime": "2022-04-29T04:14:05.567432-05:00", 
+                  "center": {
+                    "code": "05", 
+                    "center_id": "7ef3885b-37ce-5e16-8ba3-9d75b6690008", 
+                    "name": "Johns Hopkins / University of Southern California", 
+                    "namespace": "jhu-usc.edu", 
+                    "short_name": "JHU_USC", 
+                    "center_type": "CGCC"
+                  }, 
+                  "submitter_id": "TCGA-E9-A1N8-11A-42D-A145-05", 
+                  "concentration": 0.15, 
+                  "state": "released", 
+                  "aliquot_volume": 26.7
+                }
+              ], 
+              "analyte_type": "DNA", 
+              "updated_datetime": "2022-04-29T04:14:04.098987-05:00", 
+              "normal_tumor_genotype_snp_match": "Yes", 
+              "spectrophotometer_method": "UV Spec", 
+              "submitter_id": "TCGA-E9-A1N8-11A-42D", 
+              "concentration": 0.15, 
+              "state": "released", 
+              "a260_a280_ratio": 1.89, 
+              "analyte_type_id": "D"
+            }
+          ], 
+          "portion_id": "2571f3c2-cebe-47e4-a055-34d56fd9759b", 
+          "slides": [
+            {
+              "percent_stromal_cells": 100.0, 
+              "submitter_id": "TCGA-E9-A1N8-11A-01-TSA", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "01c3b247-8b3b-4466-9641-4146fbba4f51", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 100.0, 
+              "submitter_id": "TCGA-E9-A1N8-11A-02-TSB", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "0f6b095b-7126-4be3-b02a-9ebcf9231a6a", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 100.0, 
+              "submitter_id": "TCGA-E9-A1N8-11A-04-TSD", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "1d4be0fe-46ad-45a4-a03a-d5c1712d90ca", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }, 
+            {
+              "percent_stromal_cells": 100.0, 
+              "submitter_id": "TCGA-E9-A1N8-11A-03-TSC", 
+              "section_location": "TOP", 
+              "percent_tumor_cells": 0.0, 
+              "slide_id": "d9850ced-410d-4dec-b4f0-a3a7dfdf229d", 
+              "percent_neutrophil_infiltration": 0.0, 
+              "percent_lymphocyte_infiltration": 1.0, 
+              "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+              "percent_necrosis": 0.0, 
+              "percent_monocyte_infiltration": 0.0, 
+              "percent_normal_cells": 0.0, 
+              "state": "released", 
+              "percent_tumor_nuclei": 0.0
+            }
+          ], 
+          "updated_datetime": "2018-09-06T13:49:20.245333-05:00", 
+          "creation_datetime": 1301270400.0, 
+          "submitter_id": "TCGA-E9-A1N8-11A-42", 
+          "weight": 260.0, 
+          "portion_number": "42", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "46d48e94-2f17-4130-b947-fe39e5871b31", 
+          "updated_datetime": "2021-07-13T16:15:40.505763-05:00", 
+          "submitter_id": "TCGA-E9-A1N8-11A-51", 
+          "state": "released", 
+          "created_datetime": "2020-08-31T15:21:12.837885-05:00"
+        }, 
+        {
+          "analytes": [], 
+          "portion_id": "efbc87a0-993f-4c1e-9d9a-32c76bccc13a", 
+          "updated_datetime": "2022-04-29T04:14:07.779667-05:00", 
+          "center": {
+            "code": "20", 
+            "center_id": "a35fab26-d715-5e48-9563-6cd6b189b989", 
+            "name": "MD Anderson - RPPA Core Facility (Proteomics)", 
+            "namespace": "mdanderson.org", 
+            "short_name": "MDA", 
+            "center_type": "CGCC"
+          }, 
+          "creation_datetime": 1402876800.0, 
+          "submitter_id": "TCGA-E9-A1N8-11A-51-A43O-20", 
+          "weight": 20.0, 
+          "portion_number": "51", 
+          "state": "released", 
+          "is_ffpe": "false"
+        }
+      ]
+    }
+  ]
+}]
