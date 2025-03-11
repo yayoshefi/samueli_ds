@@ -738,6 +738,9 @@ def save_thumbnail(pil_img, size, path, display_path=False):
   img.save(path)
 
 
+# Retrive number of slides
+# =========================
+
 def get_num_training_slides():
   """
   Obtain the total number of WSI training slide images.
@@ -745,9 +748,21 @@ def get_num_training_slides():
   Returns:
     The total number of WSI training slide images.
   """
-  num_training_slides = len(glob.glob1(SRC_TRAIN_DIR, "*." + SRC_TRAIN_EXT))
-  return num_training_slides
+  
+  # num_training_slides = len(glob.glob1(SRC_TRAIN_DIR, "*." + SRC_TRAIN_EXT))
+  return len(list(get_training_slide_numbers))
 
+def get_training_slide_numbers():
+  for slide_num in glob.glob(os.path.join(SRC_TRAIN_DIR, TRAIN_PREFIX + "*" + SRC_TRAIN_EXT)):
+    slide_num = os.path.basename(slide_num)
+    slide_num = slide_num.replace(TRAIN_PREFIX, "")
+    slide_num = slide_num.replace("." + SRC_TRAIN_EXT, "")
+    slide_num = int(slide_num)
+    yield slide_num
+
+
+# Processing methods
+# =================
 
 def training_slide_range_to_images(start_ind, end_ind):
   """
@@ -823,6 +838,7 @@ def multiprocess_training_slides_to_images():
 
   timer.elapsed_display()
 
+# Slides information and statistics methods
 
 def slide_stats():
   """
@@ -833,9 +849,10 @@ def slide_stats():
   if not os.path.exists(STATS_DIR):
     os.makedirs(STATS_DIR)
 
-  num_train_images = get_num_training_slides()
+  num_train_images = 0
   slide_stats = []
-  for slide_num in range(1, num_train_images + 1):
+  for slide_num in get_training_slide_numbers():
+    num_train_images += 1
     slide_filepath = get_training_slide_path(slide_num)
     print("Opening Slide #%d: %s" % (slide_num, slide_filepath))
     slide = open_slide(slide_filepath)
@@ -967,7 +984,7 @@ def slide_stats():
   plt.savefig(os.path.join(STATS_DIR, "h-to-w.png"))
   plt.show()
 
-
+ 
 def slide_info(display_all_properties=False):
   """
   Display information (such as properties) about training images.
@@ -977,11 +994,10 @@ def slide_info(display_all_properties=False):
   """
   t = Time()
 
-  num_train_images = get_num_training_slides()
   obj_pow_20_list = []
   obj_pow_40_list = []
   obj_pow_other_list = []
-  for slide_num in range(1, num_train_images + 1):
+  for slide_num in get_training_slide_numbers():
     slide_filepath = get_training_slide_path(slide_num)
     print("\nOpening Slide #%d: %s" % (slide_num, slide_filepath))
     slide = open_slide(slide_filepath)
@@ -1015,15 +1031,28 @@ def slide_info(display_all_properties=False):
 
 
 if __name__ == "__main__":
-  show_slide(102)
-  slide_info(display_all_properties=True)
-  slide_stats()
+  # show_slide(102)
+  # slide_info(display_all_properties=True)
+  # slide_stats()
 
-  training_slide_to_image(4)
-  img_path = get_training_image_path(4)
-  img = open_image(img_path)
-  img.show()
+  # slide_num = 108
+  # training_slide_to_image(slide_num)
+  # img_path = get_training_image_path(slide_num)
+  # img = open_image(img_path)
+  # img.show()
 
-  slide_to_scaled_pil_image(5)[0].show()
-  singleprocess_training_slides_to_images()
-  multiprocess_training_slides_to_images()
+  # slide_num = 111
+  # slide_to_scaled_pil_image(slide_num)[0].show()
+
+  # singleprocess_training_slides_to_images()
+  # multiprocess_training_slides_to_images()
+
+
+  # SHEFI
+  # proprocess_training_slides()
+
+  timer = Time()
+  for slide_num in get_training_slide_numbers():
+    # slide_to_scaled_pil_image(slide_num)[0].show()
+    training_slide_to_image(slide_num)
+  timer.elapsed_display()
