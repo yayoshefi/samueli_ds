@@ -40,7 +40,7 @@ def main(args):
     )
 
     # Logger
-    logger = TensorBoardLogger("tb_logs", name="resnet")
+    logger = TensorBoardLogger("data/outputs/tb_logs", name="resnet", prefix=timestamp)
 
     # Trainer
     trainer = pl.Trainer(

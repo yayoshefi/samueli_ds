@@ -172,3 +172,8 @@ cython_debug/
 
 .vscode/
 data/raw/
+data/outputs
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+*ipynb
