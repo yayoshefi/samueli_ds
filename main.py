@@ -30,7 +30,7 @@ def temp_svs(wsi_path):
 
     # Extract a region (x, y, width, height)
     region = slide.read_region((1000, 1000), level=0, size=(512, 512))  # Reads at highest resolution
-    region.show()
+    region.show()  # not working
     print()
 
 
