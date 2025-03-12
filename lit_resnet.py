@@ -16,28 +16,38 @@ class LitResnet(pl.LightningModule):
     def forward(self, x):
         return self.model(x)
 
-    def training_step(self, batch, batch_idx):
-        x, y = batch
+    def _common_step(self, batch):
+        x, y = batch[:2]
         y_hat = self(x)
-        loss = self.criterion(y_hat, y.float())
+        loss = self.criterion(y_hat, y.float()) 
         acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        return loss, acc
+    
+    def training_step(self, batch, batch_idx):
+        # x, y = batch
+        # y_hat = self(x)
+        # loss = self.criterion(y_hat, y.float())
+        # acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        loss, acc = self._common_step(batch)
         self.log('train_loss', loss)
         self.log('train_acc', acc, prog_bar=True)
         return loss
 
     def validation_step(self, batch, batch_idx):
-        x, y = batch
-        y_hat = self(x)
-        loss = self.criterion(y_hat, y.float())
-        acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        # x, y = batch
+        # y_hat = self(x)
+        # loss = self.criterion(y_hat, y.float())
+        # acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        loss, acc = self._common_step(batch)
         self.log('val_loss', loss, prog_bar=True)
         self.log('val_acc', acc, prog_bar=True)
 
     def test_step(self, batch, batch_idx):
-        x, y = batch
-        y_hat = self(x)
-        loss = self.criterion(y_hat, y.float())
-        acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        # x, y = batch
+        # y_hat = self(x)
+        # loss = self.criterion(y_hat, y.float())
+        # acc = self.accuracy(torch.sigmoid(y_hat), y.int())
+        loss, acc = self._common_step(batch)
         self.log('test_loss', loss)
         self.log('test_acc', acc)
 
