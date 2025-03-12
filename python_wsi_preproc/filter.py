@@ -30,6 +30,7 @@ import skimage.segmentation as sk_segmentation
 from python_wsi_preproc import slide
 from python_wsi_preproc import util
 from python_wsi_preproc.util import Time
+from PySide6.QtWidgets import QApplication
 
 
 def filter_rgb_to_grayscale(np_img, output_type="uint8"):
@@ -989,7 +990,7 @@ def filter_grays(rgb, tolerance=15, output_type="bool"):
   t = Time()
   (h, w, c) = rgb.shape
 
-  rgb = rgb.astype(np.int)
+  rgb = rgb.astype(int)
   rg_diff = abs(rgb[:, :, 0] - rgb[:, :, 1]) <= tolerance
   rb_diff = abs(rgb[:, :, 0] - rgb[:, :, 2]) <= tolerance
   gb_diff = abs(rgb[:, :, 1] - rgb[:, :, 2]) <= tolerance
@@ -1460,9 +1461,10 @@ def multiprocess_apply_filters_to_images(save=True, display=False, html=True, im
 
   print("Time to apply filters to all images (multiprocess): %s\n" % str(timer.elapsed()))
 
-# if __name__ == "__main__":
-# slide.training_slide_to_image(2)
-# singleprocess_apply_filters_to_images(image_num_list=[2], display=True)
 
-# singleprocess_apply_filters_to_images()
-# multiprocess_apply_filters_to_images()
+if __name__ == "__main__":
+    # slide.training_slide_to_image(102)
+    # singleprocess_apply_filters_to_images(image_num_list=[102], display=True)
+
+    singleprocess_apply_filters_to_images(image_num_list=list(range(114, 115)))
+    # multiprocess_apply_filters_to_images()

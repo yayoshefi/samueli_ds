@@ -20,6 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # If True, display additional NumPy array stats (min, max, mean, is_binary).
 ADDITIONAL_NP_STATS = False
+QUIET = True
 
 
 def pil_to_np_rgb(pil_img):
@@ -66,7 +67,8 @@ def np_info(np_arr, name=None, elapsed=None):
     name: The (optional) name of the array.
     elapsed: The (optional) time elapsed to perform a filtering operation.
   """
-
+  if QUIET:
+    return
   if name is None:
     name = "NumPy Array"
   if elapsed is None:

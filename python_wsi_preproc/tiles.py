@@ -19,6 +19,7 @@ import matplotlib
 
 matplotlib.use('Agg')
 
+import uuid
 import colorsys
 import math
 import matplotlib.pyplot as plt
@@ -56,8 +57,9 @@ FADED_MEDIUM_COLOR = (255, 255, 128)
 FADED_LOW_COLOR = (255, 210, 128)
 FADED_NONE_COLOR = (255, 128, 128)
 
-FONT_PATH = "/Library/Fonts/Arial Bold.ttf"
-SUMMARY_TITLE_FONT_PATH = "/Library/Fonts/Courier New Bold.ttf"
+FONT_PATH = "/usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf"
+SUMMARY_TITLE_FONT_PATH = "/usr/share/fonts/truetype/msttcorefonts/courbi.ttf"
+
 SUMMARY_TITLE_TEXT_COLOR = (0, 0, 0)
 SUMMARY_TITLE_TEXT_SIZE = 24
 SUMMARY_TILE_TEXT_COLOR = (255, 255, 255)
@@ -172,8 +174,9 @@ def generate_tile_summaries(tile_sum, np_img, display=True, save_summary=False):
 
   for t in tile_sum.tiles:
     border_color = tile_border_color(t.tissue_percentage)
-    tile_border(draw, t.r_s + z, t.r_e + z, t.c_s, t.c_e, border_color)
-    tile_border(draw_orig, t.r_s + z, t.r_e + z, t.c_s, t.c_e, border_color)
+    if t.r_e - t.r_s > 2 and t.c_e - t.c_s > 2: # min size for drawing border
+      tile_border(draw, t.r_s + z, t.r_e + z, t.c_s, t.c_e, border_color)
+      tile_border(draw_orig, t.r_s + z, t.r_e + z, t.c_s, t.c_e, border_color)
 
   summary_txt = summary_title(tile_sum) + "\n" + summary_stats(tile_sum)
 
@@ -496,7 +499,7 @@ def save_top_tiles_on_original_image(pil_img, slide_num):
   print(
     "%-20s | Time: %-14s  Name: %s" % ("Save Top Orig Thumb", str(t.elapsed()), thumbnail_filepath))
 
-
+# NOTE: Main functino to generate tiles
 def summary_and_tiles(slide_num, display=True, save_summary=False, save_data=True, save_top_tiles=True):
   """
   Generate tile summary and top tiles for slide.
@@ -614,7 +617,7 @@ def save_display_tile(tile, save=True, display=False):
   if display:
     tile_pil_img.show()
 
-
+# NOTE: Main function to generate tiles using numpy image
 def score_tiles(slide_num, np_img=None, dimensions=None, small_tile_in_tile=False):
   """
   Score all tiles for a slide and return the results in a TileSummary object.
@@ -1136,6 +1139,7 @@ def np_histogram(data, title, bins="auto"):
   canvas.draw()
   w, h = canvas.get_width_height()
   np_hist = np.fromstring(canvas.get_renderer().tostring_rgb(), dtype=np.uint8).reshape(h, w, 3)
+  # np_hist = np.frombuffer(canvas.tostring_rgb(), dtype=np.uint8).reshape(h, w, 3)
   plt.close(figure)
   util.np_info(np_hist)
   return np_hist
@@ -1418,6 +1422,19 @@ def display_image_with_rgb_histograms(np_rgb, text=None, scale_up=False):
   pil_combo.show()
 
 
+def textsize(draw, text, font):
+  """Replacement to the deprecated ImageDraw.textsize method.
+  return draw.textsize(text, font)
+
+  Args:
+      draw (_type_): _description_
+      text (_type_): _description_
+      font (_type_): _description_
+  """
+  _, _, width, height = draw.textbbox((0, 0), text=text, font=font)
+  return width, height
+
+
 def pil_text(text, w_border=TILE_TEXT_W_BORDER, h_border=TILE_TEXT_H_BORDER, font_path=FONT_PATH,
              font_size=TILE_TEXT_SIZE, text_color=TILE_TEXT_COLOR, background=TILE_TEXT_BACKGROUND_COLOR):
   """
@@ -1437,7 +1454,8 @@ def pil_text(text, w_border=TILE_TEXT_W_BORDER, h_border=TILE_TEXT_H_BORDER, fon
   """
 
   font = ImageFont.truetype(font_path, font_size)
-  x, y = ImageDraw.Draw(Image.new("RGB", (1, 1), background)).textsize(text, font)
+  # x, y = ImageDraw.Draw(Image.new("RGB", (1, 1), background)).textsize(text, font)
+  x, y = textsize(ImageDraw.Draw(Image.new("RGB", (1, 1), background)), text, font)
   image = Image.new("RGB", (x + 2 * w_border, y + 2 * h_border), background)
   draw = ImageDraw.Draw(image)
   draw.text((w_border, h_border), text, text_color, font=font)
@@ -1851,7 +1869,7 @@ class Tile:
   """
 
   def __init__(self, tile_summary, slide_num, np_scaled_tile, tile_num, r, c, r_s, r_e, c_s, c_e, o_r_s, o_r_e, o_c_s,
-               o_c_e, t_p, color_factor, s_and_v_factor, quantity_factor, score):
+               o_c_e, t_p, color_factor, s_and_v_factor, quantity_factor, score, tile_idx=None):
     self.tile_summary = tile_summary
     self.slide_num = slide_num
     self.np_scaled_tile = np_scaled_tile
@@ -1871,6 +1889,9 @@ class Tile:
     self.s_and_v_factor = s_and_v_factor
     self.quantity_factor = quantity_factor
     self.score = score
+    if tile_idx is None:
+      tile_idx = uuid.uuid4()
+      
 
   def __str__(self):
     return "[Tile #%d, Row #%d, Column #%d, Tissue %4.2f%%, Score %0.4f]" % (
@@ -1951,9 +1972,9 @@ def dynamic_tile(slide_num, row, col, small_tile_in_tile=False):
   tile = tile_summary.get_tile(row, col)
   return tile
 
-# if __name__ == "__main__":
-  # tile = dynamic_tile(2, 29, 16, True)
+if __name__ == "__main__":
+  # tile = dynamic_tile(102, 29, 16, True)
   # tile.display_with_histograms()
 
-  # singleprocess_filtered_images_to_tiles()
+  singleprocess_filtered_images_to_tiles(image_num_list=list(range(114,115)))
   # multiprocess_filtered_images_to_tiles()
