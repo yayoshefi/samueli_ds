@@ -34,18 +34,18 @@ def main(args):
     checkpoint_dir = os.path.join('data/outputs', timestamp)
     os.makedirs(checkpoint_dir, exist_ok=True)
     
-    checkpoint_callback = ModelCheckpoint(
+    checkpoints_cb = ModelCheckpoint(
         monitor='val_loss',
         dirpath=checkpoint_dir,
-        filename='resnet-{epoch:02d}-{val_loss:.2f}',
-        save_top_k=3,
+        filename='tupac-{epoch:02d}-{val_loss:.2f}',
+        save_top_k=2,
         mode='min',
+        save_last=True,
     )
-    early_stopping_callback = EarlyStopping(
-        monitor='val_loss',
-        patience=5,
-        mode='min'
-    )
+    # best_ckpt_cb = ModelCheckpoint(
+    #     monitor='val_loss',dirpath=checkpoint_dir,filename='best', save_top_k=1, mode='min',
+    # )
+    early_stopping_cb = EarlyStopping(monitor='val_loss',patience=5, mode='min')
 
     # Logger
     tb_logger = TensorBoardLogger(checkpoint_dir, name="dig_patho")# , prefix=timestamp)
@@ -53,7 +53,7 @@ def main(args):
     # Trainer
     trainer = pl.Trainer(
         max_epochs=args.max_epochs,
-        callbacks=[checkpoint_callback, early_stopping_callback],
+        callbacks=[checkpoints_cb, early_stopping_cb],
         logger=tb_logger,
         # To use with the infinite dataloader
         # limit_train_batches=100, limit_val_batches=10,
@@ -77,8 +77,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Train ResNet model on WSI dataset')
     parser.add_argument('--train_path', type=str, default='tupac16/train', help='dir with pickle of train')
     parser.add_argument('--val_path', type=str, default='tupac16/val', help='dir with pickle of val')
-    parser.add_argument('--batch_size', type=int, default=32, help='Batch size for training and validation')
-    parser.add_argument('--lr', type=float, default=1e-3, help='Learning rate')
+    parser.add_argument('--batch_size', type=int, default=64, help='Batch size for training and validation')
+    parser.add_argument('--lr', type=float, default=1e-4, help='Learning rate')
     parser.add_argument('--max_epochs', type=int, default=50, help='Maximum number of epochs')
 
     args = parser.parse_args()

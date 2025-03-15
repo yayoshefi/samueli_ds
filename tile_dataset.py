@@ -11,16 +11,21 @@ from albumentations.pytorch import ToTensorV2
 
 from python_wsi_preproc import slide, tiles
 from python_wsi_preproc.tiles import TileSummary, Tile
+from balanced_tile_sampler import BalancedTilehSampler
 
-class TileDataset(Dataset):
-    
+class TileDataset(Dataset):    
     def __init__(self, slides_df, tiles_df, transform=None):
         self.slides_df = slides_df
         self.tiles_df = tiles_df
         self.transform = transform
 
         # commons
-        self.tile_drop_cols = self.tiles_df.columns.intersection(["rank", "split"])
+        self.tiles_args = [
+            'tile_summary', 'slide_num', 'np_scaled_tile', 'tile_num',
+            'r', 'c', 'r_s', 'r_e', 'c_s', 'c_e', 'o_r_s', 'o_r_e', 'o_c_s', 'o_c_e',
+            't_p', 'color_factor', 's_and_v_factor','quantity_factor', 'score'
+        ]
+            
 
     @classmethod
     def generate_dataset(cls, csv_file, transform=None) -> 'TileDataset':
@@ -90,12 +95,12 @@ class TileDataset(Dataset):
 
     def __getitem__(self, index):
         tile_srs = self.tiles_df.iloc[index]
-        tile_srs = tile_srs.rename({'tissue_percentage': 't_p'}).drop(self.tile_drop_cols)
-        tile = Tile(**tile_srs)
+        tile_srs = tile_srs.rename({'tissue_percentage': 't_p'})
+        tile = Tile(**tile_srs[self.tiles_args])
         image = tile.get_np_tile()
         label = self.slides_df[self.slides_df.slide_num == tile.slide_num].tag.values[0]
         
-        data = dict(slide_num=tile.slide_num, tile_row=tile.r, tile_col=tile.c, label=label)
+        data = dict(slide_num=tile.slide_num, tile_num=tile.tile_num, label=label)
         data.update(dict(tissue_percent=tile.tissue_percentage, score=float(tile.score)))  # Main scores
         data.update(dict(color_factor=float(tile.color_factor), s_and_v_factor=tile.s_and_v_factor, quantity_factor=tile.quantity_factor))
         
@@ -132,12 +137,11 @@ test_transform = A.Compose([
 def create_dataloader(src_dir, batch_size=32, num_workers=4, is_train=True):
     transform=train_transform if is_train else test_transform
     dataset = TileDataset.load_dataset(src_dir=src_dir, transform=transform)
-    dataloader = DataLoader(
-        dataset, batch_size=batch_size,
-        num_workers=num_workers,
-        shuffle=True if is_train else False,
-        collate_fn=collate_fn
-        )
+    if is_train:
+        kwds = dict(batch_sampler=BalancedTilehSampler(dataset, batch_size))
+    else:
+        kwds = dict(batch_size=32, shuffle=False)
+    dataloader = DataLoader(dataset, num_workers=num_workers, collate_fn=collate_fn,**kwds)
     return dataloader
 
 
@@ -147,7 +151,10 @@ if __name__ == "__main__":
     tic = time.time()
     all_csv = 'data/datasets/tupac_16/data_full.csv'
     test_csv = 'data/datasets/tupac16/data_test.csv'
-    dataset = TileDataset.generate_dataset(csv_file=test_csv, transform=train_transform)
+    
+    # dataset = TileDataset.generate_dataset(csv_file=test_csv, transform=train_transform)
+    dataset = TileDataset.load_dataset(src_dir="data/datasets/tupac16/test", transform=test_transform)
+
     dataloader = DataLoader(dataset, batch_size=32, num_workers=0, shuffle=True, collate_fn=collate_fn)
     toc = time.time()
     print(f"Time to create dataloader: {toc-tic:.2f} seconds")

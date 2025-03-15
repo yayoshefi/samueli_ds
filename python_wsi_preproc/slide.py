@@ -31,7 +31,8 @@ from python_wsi_preproc.util import Time
 
 # BASE_DIR = os.path.join(".", "data")
 # BASE_DIR = os.path.join(os.sep, "Volumes", "BigData", "TUPAC")
-BASE_DIR = "data/raw"
+PROJ_DIR = "/home/shefi/Projects/samueli_ds" # in some cases I needed to use an absoulute path...
+BASE_DIR = os.path.join(PROJ_DIR, "data/raw")
 # SRC_TRAIN_DIR = os.path.join(BASE_DIR, "training_slides")
 SRC_TRAIN_DIR = os.path.join(BASE_DIR, "slides")
 TRAIN_PREFIX = "TUPAC-TR-"
