@@ -12,6 +12,9 @@ from albumentations.pytorch import ToTensorV2
 from python_wsi_preproc import slide, tiles
 from python_wsi_preproc.tiles import TileSummary, Tile
 from balanced_tile_sampler import BalancedTilehSampler
+import logging
+
+logger = logging.getLogger(__name__)
 
 class TileDataset(Dataset):    
     def __init__(self, slides_df, tiles_df, transform=None):
@@ -105,7 +108,10 @@ class TileDataset(Dataset):
         data.update(dict(color_factor=float(tile.color_factor), s_and_v_factor=tile.s_and_v_factor, quantity_factor=tile.quantity_factor))
         
         if self.transform:
-            image = self.transform(image=image)['image']
+            if isinstance(self.transform, A.Compose):
+                image = self.transform(image=image)["image"]
+            else: # pytorch compose
+                image = self.transform(image)
         return image, label, data
     
         
@@ -134,14 +140,15 @@ test_transform = A.Compose([
 
 # Build DataLoader
 # ================
-def create_dataloader(src_dir, batch_size=32, num_workers=4, is_train=True):
-    transform=train_transform if is_train else test_transform
-    dataset = TileDataset.load_dataset(src_dir=src_dir, transform=transform)
+def create_dataloader(src_dir, batch_size=32, num_workers=4, is_train=True, transforms=None, **kwargs):
+    logger.info(f"Constructing {'train' if is_train else 'val'} dataloader: {src_dir} ")
+    # transform=train_transform if is_train else test_transform
+    dataset = TileDataset.load_dataset(src_dir=src_dir, transform=transforms)
     if is_train:
-        kwds = dict(batch_sampler=BalancedTilehSampler(dataset, batch_size))
+        kwargs = dict(batch_sampler=BalancedTilehSampler(dataset, batch_size))
     else:
-        kwds = dict(batch_size=32, shuffle=False)
-    dataloader = DataLoader(dataset, num_workers=num_workers, collate_fn=collate_fn,**kwds)
+        kwargs = dict(batch_size=32, shuffle=False)
+    dataloader = DataLoader(dataset, num_workers=num_workers, collate_fn=collate_fn,**kwargs)
     return dataloader
 
 

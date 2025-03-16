@@ -1,0 +1,48 @@
+train_dataloader:
+  _target_: tile_dataset.create_dataloader
+  src_dir: data/datasets/tupac16/train
+  batch_size: 64
+  num_workers: 4
+  is_train: true
+  transforms:
+    ??
+
+
+
+val_dataloader:
+  _target_: tile_dataset.create_dataloader
+  src_dir: data/datasets/tupac16/val
+  batch_size: 64
+  num_workers: 4
+  is_train: false
+  transforms:
+    ??
+
+
+
+# Augmentations.. old
+    # _target_: albumentations.Compose
+    # transforms:
+    #   - _target_: albumentations.RandomCrop
+    #     height: 448
+    #     width: 448  # Min size of actual tiles
+    #   - _target_: albumentations.Resize
+    #     height: 224
+    #     width: 224
+    #   - _target_: albumentations.HorizontalFlip
+    #   - _target_: albumentations.VerticalFlip
+    #   - _target_: albumentations.RandomRotate90
+    #   - _target_: albumentations.Normalize
+    #     mean: [0.485, 0.456, 0.406]
+    #     std: [0.229, 0.224, 0.225]
+    #   - _target_: albumentations.pytorch.ToTensorV2
+
+    # _target_: albumentations.Compose
+    # transforms:
+    #   - _target_: albumentations.Resize
+    #     height: 224
+    #     width: 224
+    #   - _target_: albumentations.Normalize
+    #     mean: [0.485, 0.456, 0.406]
+    #     std: [0.229, 0.224, 0.225]
+    #   - _target_: albumentations.pytorch.ToTensorV2

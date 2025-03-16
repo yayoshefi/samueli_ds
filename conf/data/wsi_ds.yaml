@@ -1,0 +1,13 @@
+train_dataloader:
+    _target_: wsi_dataset.create_dataloader
+    csv_file: data/datasets/tupac16/data_train.csv
+    data_dir: data/raw/training_png
+    batch_size: 256
+    is_train: true
+
+val_dataloader:
+    _target_: wsi_dataset.create_dataloader
+    csv_file: data/datasets/tupac16/data_val.csv
+    data_dir: data/raw/training_png
+    batch_size: 256
+    is_train: false

@@ -2,16 +2,17 @@ import pytorch_lightning as pl
 import torch
 import torch.nn.functional as F
 from torchmetrics import Accuracy
-from torchvision.models import resnet50
+# from torchvision.models import resnet50
+from torchvision import models
 
 class LitResnet(pl.LightningModule):
-    def __init__(self, num_classes=2, lr=1e-3):
+    def __init__(self, num_classes=1, lr=1e-3, arch="resnet50"):
         super().__init__()
         self.save_hyperparameters()
-        self.model = resnet50(pretrained=True)
+        self.model = getattr(models, arch)(pretrained=True)
         self.model.fc = torch.nn.Linear(self.model.fc.in_features, num_classes)
         self.criterion = torch.nn.BCEWithLogitsLoss()
-        self.accuracy = Accuracy(task='binary')
+        self.accuracy = Accuracy(task='binary' if num_classes==1 else "multiclass")
 
     def forward(self, x):
         return self.model(x)

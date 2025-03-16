@@ -1,0 +1,39 @@
+defaults:
+  - data: tile_ds
+  - transforms@data.train_dataloader: train_rand_augment_4_ops_mag_19_sz_448
+  - transforms@data.val_dataloader: val_albumentations_sz_224
+
+general:
+  checkpoint_dir: ./data/outputs/${now:%Y%m%d_%H%M}
+
+model:
+  num_classes: 1
+  arch: resnet50
+  lr: 1e-4
+
+# data:
+#   train_dataloader:
+#     transforms:
+#       _target_: torchvision.transforms.Compose
+#       transforms:
+#         - _target_: torchvision.transforms.ToPILImage
+#         - _target_: torchvision.transforms.RandomCrop
+#           size: [448, 448] # [h,w] Min size of actual tiles
+#         - _target_: torchvision.transforms.Resize
+#           size: [224, 224]
+#         - _target_: torchvision.transforms.RandAugment
+#           num_ops: 4
+#           magnitude: 19
+#         - _target_: torchvision.transforms.ToTensor
+#         - _target_: torchvision.transforms.Normalize
+#           mean: [0.485, 0.456, 0.406]
+#           std: [0.229, 0.224, 0.225]
+
+
+trainer:
+  max_epochs: 20
+
+
+hydra:
+  run:
+    dir: ${general.checkpoint_dir}
