@@ -10,17 +10,20 @@ I Imagine it as a series of images (slices) of the body aligned by the vertical 
 
 
 ## Approach A: Classical
-- Identify vertebrae in the image by finding the largest “blob”
-    - Using morphology operator on binary image should take the largest bone in the image
+- Identify vertebrae in each horizontal plane image (slice) by finding the largest “blob”
+    - Using morphology operations on binary image should take the largest bone in the image
+    - specificaly we can use `cv2.findCountours` as an easy method
 - Measure IoU between 2 adjacent slices to make sure they are from the section(vertebrae)
     - They should be aligned and the size different between adjacent slices should be small
-    - This should “break” in the between the joints
-- Start from a known anchor and count up
-    - The Sacrum should be identified easily because it’s the lower and the largest
+    - the intervertebral  disc should create area of discontinuity effectively separating between the vertebras
+- To find the specific L3, we need to start from a known "anchor" and count up
+    - The Sacrum should be identified easily because it’s the lowest and the largest bone in the scan
     - Count 3 vertebrae to reach L3
     - For the middle section take half point from the start and end of the vertebrae
 ### simpler version: 
-    If we can identify L3 by counting vertebrae front to the spinal coord from a side view, we can find the Z-plane and choose the correct slice
+    In case we are not bounded to vertical slice (dcm files)
+    We can identify L3 by counting vertebrae front to the spinal coord from a side view,
+    we can find the Z-plane and choose the correct slice
 ![side view](./images/spice_sagital.png "side view")
     
 
@@ -33,6 +36,11 @@ I Imagine it as a series of images (slices) of the body aligned by the vertical 
     - (need to ask domain experts)
 - Extension:
     - Use 3D architectures (use voxels instead pixels) - this can work similar to pose estimation networks where we actually predict different heatmaps for each vertebrae
+    - again if we do not assume we need to work by slices (dcm files), we can use a frontal view and annotate vertebrates on the same image
 
 
 
+# Reference Images
+![Frontal Spine](./images/spine_frontal_plane.jpg "Frontal plane")
+![all planes](./images/spine_all_planes.jpg "all planes")
+![Horizontal](./images/vertebra_horizontal_plane.jpg "Horizontal plane")
